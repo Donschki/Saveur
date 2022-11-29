@@ -57,7 +57,7 @@
          
      </header>
   
-     <div class="home-background-image"> <!-- THE VERY FIRST BACKGROUND IMAGE ON HOME PAGE--> 
+     <div class="top-background-image"> <!-- THE VERY FIRST BACKGROUND IMAGE ON HOME PAGE--> 
          <img src="" alt="">BACKGROUND IMAGE HERE
      </div>
   
@@ -74,19 +74,29 @@
   
          <div class="menus-container"> <!-- CONTAINS THE MENUS --> 
 
-             <div class="breakfast-menu menus containers"> <!-- BREAKFAST MENU--> 
-         <img src="" alt=""> 
-         <h2>Breakfast</h2>
+             
+             <div class="breakfast-menu menus containers overlay"> <!-- BREAKFAST MENU--> 
+                 <a href="breakfast.html"> 
+                     <div class="overlay">
+                         <h2>Breakfast</h2>
+                     </div>
+                 </a>  
+             </div>  
+
+             <div class="lunch-dinner-menu menus containers overlay"> <!-- LUNCH MENU -->
+                 <a href="lunch&dinner.html"> 
+                     <div class="overlay">
+                         <h2>Lunch & Dinner</h2>
+                     </div>
+                 </a>  
              </div>
 
-             <div class="lunch-dinner-menu menus containers"> <!-- LUNCH MENU -->
-         <img src="" alt=""> 
-         <h2>Lunch & Dinner</h2>
-             </div>
-
-             <div class="desserts-menu menus containers"> <!-- DESSERTS MENU -->
-         <img src="" alt=""> 
-         <h2>Desserts</h2>
+             <div class="desserts-menu menus containers overlay"> <!-- DESSERTS MENU -->
+                 <a href="desserts.html"> 
+                     <div class="overlay">
+                         <h2>Desserts</h2>
+                     </div>
+                 </a>  
              </div>
 
          </div>
@@ -99,22 +109,32 @@
   
      <footer ><!-- CONTAINS FOOTER CONTENTS - ADDRESS - MAP - CONTACTS DETAILS -->
          <div class="contact-container" id="footer">
-         <h2  >Get in touch</h2>
+             <h2  >Get in touch</h2>
 
-         <div class="social-media-&-map-container">
-            <div class="phone"></div>
-            <div class="instagram"></div>
-            <div class="facebook"></div>
+        <div class="social-media-&-map">
 
-            <form action="/action-page.php">
-                <label for="fname" >Full Name</label><br>
-                <input type="text" name="fname" id="first-name" value=""><br>
-                <label for="lname">Your Email</label><br>
-                <input type="text" name="lname" id="lname" value=""><br><br>
-                <textarea name="message" id="" cols="30" rows="10"></textarea><br><br>
-                <input type="submit" value="Submit">
-                
+             <div class="social-media">
+                 <span class="social-media-icons" id="phone"></span>
+                 <span class="social-media-icons" id="instagram"></span>
+                 <span class="social-media-icons" id="facebook"></span>
+             </div>
+
+             <form action="/index.php">
+                 <label for="fname" >Full Name</label><br>
+                 <input type="text" name="fname" id="first-name" value=""><br>
+                 <label for="lname">Your Email</label><br>
+                 <input type="text" name="lname" id="lname" value=""><br>
+                 <label for="message">Your Message Here</label><br>
+                 <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+                 <input type="submit" value="Submit">
+               
             </form>
+
+             <div class="map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1470.0608299619485!2d18.43256932861804!3d-34.19300766085945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc3fd4ba545afd%3A0x487d29b6a5489b24!2sSAVEUR%20Restaurant!5e0!3m2!1sen!2sza!4v1669737568324!5m2!1sen!2sza" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+
+           
          </div>
          
          </div>

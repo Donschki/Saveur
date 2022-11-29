@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="Styles/style.css">
+     <title>Saveur | Lunch & Dinner</title>
+</head>
+
+<body>
+     <header> <!-- THE HEADER CONTAINS THE SAVEUR LOGO & THE HAMBURGER MENU --> 
+         <h1>Saveur</h1>
+
+         <div class="hamburger-menu">
+             <div class="line1 lines" id="change"></div>            
+             <div class="line2 lines" id="change"></div>            
+             <div class="line3 lines" id="change"></div>            
+         </div>
+
+         <nav> 
+
+        <ul class="nav-list">
+             <li class="nav-item">
+             <a href="index.html">Home</a>
+        </li>
+
+         <li class="nav-item">
+             <a href="menu.html">Menu</a>
+         </li>
+
+         <li class="nav-item">
+             <a href="#footer">Contact</a>
+         </li>
+         </ul>
+  
+         </nav>
+
+         <ul class="nav-list-extended">
+
+     <li class="nav-item-extended">
+       <a href="index.html">Home</a> 
+     </li>
+
+       <li class="nav-item-extended">
+           <a href="menu.html">Menu</a>
+       </li>
+       <li class="nav-item-extended">
+           <a href="#footer">Contact</a>
+       </li>
+        </ul>
+        
+     </header>
+    
+     <footer ><!-- CONTAINS FOOTER CONTENTS - ADDRESS - MAP - CONTACTS DETAILS -->
+        <div class="contact-container" id="footer">
+            <h2  >Get in touch</h2>
+
+       <div class="social-media-&-map">
+
+            <div class="social-media">
+                <span class="social-media-icons" id="phone"></span>
+                <span class="social-media-icons" id="instagram"></span>
+                <span class="social-media-icons" id="facebook"></span>
+            </div>
+
+            <div class="map">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+
+            <form action="/index.php">
+                <label for="fname" >Full Name</label><br>
+                <input type="text" name="fname" id="first-name" value=""><br>
+                <label for="lname">Your Email</label><br>
+                <input type="text" name="lname" id="lname" value=""><br><br>
+                <textarea name="message" id="" cols="30" rows="10"></textarea><br><br>
+                <input type="submit" value="Submit">
+               
+            </form>
+        </div>
+        
+        </div>
+     </footer>
+</body>
+</html>

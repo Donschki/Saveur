@@ -13,31 +13,76 @@
 </head>
 
 <body>
-    <header> <!-- THE HEADER CONTAINS THE SAVEUR LOGO & THE HAMBURGER MENU --> 
-        <h1>Saveur</h1>
+     <header> <!-- THE HEADER CONTAINS THE SAVEUR LOGO & THE HAMBURGER MENU --> 
+         <h1>Saveur</h1>
    
-        <div class="hamburger-menu">
-            <div class="line1 lines" id="change"></div>            
-            <div class="line2 lines" id="change"></div>            
-            <div class="line3 lines" id="change"></div>            
-        </div>
+         <div class="hamburger-menu">
+             <div class="line1 lines" id="change"></div>            
+             <div class="line2 lines" id="change"></div>            
+             <div class="line3 lines" id="change"></div>            
+         </div>
    
-        <nav> 
-           <ul class="nav-list">
-             <a href="index.html"> <li class="nav-item">Home</li></a>
-              <a href="menu.html"><li class="nav-item">Menu</li></a>
-              <a href="#footer"><li class="nav-item">Contact</li></a>
-           </ul>
-      
-       </nav>
+         <nav> 
+             <ul class="nav-list">
+                 <a href="index.html"> <li class="nav-item">Home</li></a>
+                 <a href="menu.html"><li class="nav-item">Menu</li></a>
+                 <a href="#footer"><li class="nav-item">Contact</li></a>
+             </ul>
+         </nav>
    
        <ul class="nav-list-extended">
-           <a href="index.html"> <li class="nav-item-extended">Home</li></a>
-           <a href="menu.html"><li class="nav-item-extended">Menu</li></a>
-           <a href="#footer"><li class="nav-item-extended">Contact</li></a>
+             <a href="index.html"> <li class="nav-item-extended">Home</li></a>
+             <a href="menu.html"><li class="nav-item-extended">Menu</li></a>
+             <a href="#footer"><li class="nav-item-extended">Contact</li></a>
         </ul>
-    </header>
 
+     </header>
+
+     <div class="top-background-image"> <!-- THE VERY FIRST BACKGROUND IMAGE ON HOME PAGE--> 
+         <img src="" alt="">BACKGROUND IMAGE HERE
+     </div>
+
+     <main class="menu-main"> <!-- CONTAINS ALL OTHER CONTAINERS --> 
+         <div class="breakfast-items">
+         </div>
+         <div class="lunch&dinner-items">
+         </div>
+         <div class="dessert-items">
+         </div>
+
+     </main class="menu-main">
+
+     <footer ><!-- CONTAINS FOOTER CONTENTS - ADDRESS - MAP - CONTACTS DETAILS -->
+        <div class="contact-container" id="footer">
+            <h2  >Get in touch</h2>
+
+       <div class="social-media-&-map">
+
+            <div class="social-media">
+                <span class="social-media-icons" id="phone"></span>
+                <span class="social-media-icons" id="instagram"></span>
+                <span class="social-media-icons" id="facebook"></span>
+            </div>
+
+            <div class="map">
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+
+            <form action="/index.php">
+                <label for="fname" >Full Name</label><br>
+                <input type="text" name="fname" id="first-name" value=""><br>
+                <label for="lname">Your Email</label><br>
+                <input type="text" name="lname" id="lname" value=""><br><br>
+                <textarea name="message" id="" cols="30" rows="10"></textarea><br><br>
+                <input type="submit" value="Submit">
+               
+            </form>
+        </div>
+        
+        </div>
+     </footer>
+   
 <script src="index.js"></script>
+
 </body>
 </html>

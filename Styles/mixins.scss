@@ -5,7 +5,6 @@
      flex-direction: row;
      background-color: var(--background-color);
      padding: 1em;
-     width: 100vw;
      color: var(--blue);
 }
 
@@ -60,3 +59,16 @@
      text-transform: uppercase;
 }
 
+
+@mixin footer {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border: var(--borders);
+     color: whitesmoke;
+     background-color: var(--background-color);
+
+     h2 {
+          color: whitesmoke;
+     }
+}

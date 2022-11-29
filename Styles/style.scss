@@ -11,6 +11,10 @@
     //  border: solid 1px black;
 }
 
+
+//                  HEADER
+
+
 header {
      display: flex;
      @include header;
@@ -61,7 +65,7 @@ a {
      height: 100vh;
 }
 
-.home-background-image {
+.top-background-image {
       height: 50vh;
       display: flex;
       justify-content: center;
@@ -69,11 +73,16 @@ a {
 }
 
 body {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     gap: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2em;
+      background-color: #01257f04;
 }
+
+
+//                  HOME PAGE 
+
 
 main {
       display: flex;
@@ -132,24 +141,31 @@ p { //ALL PARAGRAPHS
       border: var(--borders);
 }
 
-.thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
-      background-color: var(--background-color);
-      padding: 1em;
-      margin: 1em 0;
-
-      h2 {
-        color: whitesmoke;
-     }
-      p {
-        color: whitesmoke;
-     }
+.containers, .overlay{
+     height: 100%;
 }
 
-.contact-container {
-     display: flex;
-     flex-direction: column;
-     text-align: center;
+.thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
+      padding: 1em;
+      margin: 1em 0;
+      border: var(--borders);
+
+}
+
+
+//                  MENU PAGE 
+
+
+.menu-main {
      border: var(--borders);
+}
+
+footer {
+ @include footer;
+}
+
+.map {
+     height: 450px;
 }
 
 @media only screen and (min-width: 480px){
