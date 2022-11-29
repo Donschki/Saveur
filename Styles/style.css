@@ -91,6 +91,13 @@ a {
   height: 100vh;
 }
 
+.home-background-image {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -169,6 +176,11 @@ footer {
   }
 }
 @media only screen and (min-width: 768px) {
+  main {
+    position: relative;
+    top: -3em;
+    z-index: 1;
+  }
   nav {
     flex-direction: row;
     top: 6em;
@@ -206,6 +218,11 @@ footer {
   }
   .thank-you-slideshow p {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .welcome-container {
+    padding: 1em 5em;
   }
 }
 @media only screen and (min-width: 1500px) {
