@@ -1,15 +1,15 @@
 @import "./style.css";
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   --borders: #01257F 2px solid;
   --background-color: #01257F;
   --h2-color: #01257F;
   --font-color: #01257F;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -98,6 +98,13 @@ a {
   align-items: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2em;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -158,6 +165,7 @@ p {
 .thank-you-slideshow {
   background-color: var(--background-color);
   padding: 1em;
+  margin: 1em 0;
 }
 .thank-you-slideshow h2 {
   color: whitesmoke;
@@ -166,8 +174,11 @@ p {
   color: whitesmoke;
 }
 
-footer {
-  color: white;
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: var(--borders);
 }
 
 @media only screen and (min-width: 480px) {

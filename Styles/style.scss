@@ -1,19 +1,14 @@
 @import "./style.css";
 @import "./mixins.scss";
 @import "./images.scss";
+@import "./form.scss";
+@import "./root.scss";
 
 * {
      box-sizing: border-box;
      margin: 0;
      padding: 0;
     //  border: solid 1px black;
-}
-
-:root {
-     --borders: #01257F 2px solid;
-     --background-color: #01257F;
-     --h2-color: #01257F;
-     --font-color: #01257F;
 }
 
 header {
@@ -71,6 +66,13 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap: 2em;
 }
 
 main {
@@ -133,6 +135,7 @@ p { //ALL PARAGRAPHS
 .thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
       background-color: var(--background-color);
       padding: 1em;
+      margin: 1em 0;
 
       h2 {
         color: whitesmoke;
@@ -142,8 +145,11 @@ p { //ALL PARAGRAPHS
      }
 }
 
-footer {
-      color: white;
+.contact-container {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border: var(--borders);
 }
 
 @media only screen and (min-width: 480px){
