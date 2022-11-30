@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     // border: solid 1px black;
+     border: solid 1px black;
 }
 
 
@@ -254,7 +254,7 @@ label {
 
 svg {
       height: 100%;
-      width: 100%;
+      width: 50%;
 
       fill: white;
 
@@ -337,28 +337,28 @@ footer {
 
 
 .specials {
-          width: 1000px;
-          margin: auto;
+      width: 1000px;
+      margin: auto;
 }
 
 .contact-container {
-     flex-direction: row;
-     gap: 0;
+      flex-direction: row;
+      gap: 0;
 }
 
 .social-media-container {
-     width: 50%;
-     justify-content: space-evenly;
+      width: 50%;
+      justify-content: space-evenly;
 
 }
 
 form {
-     margin: 0;
+      margin: 0;
 }
 
 .map {
-     width: 48%;
-     margin: auto;
+      width: 48%;
+      margin: auto;
 }
 
 }

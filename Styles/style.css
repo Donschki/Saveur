@@ -9,7 +9,7 @@
 .breakfast-menu .overlay {
   background-image: url("/Saveur/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
-  background-position: center;
+  background-position: top;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
@@ -53,6 +53,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: solid 1px black;
 }
 
 header {
@@ -314,7 +315,7 @@ label {
 
 svg {
   height: 100%;
-  width: 100%;
+  width: 50%;
   fill: white;
 }
 
