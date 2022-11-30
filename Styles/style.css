@@ -56,10 +56,6 @@
   padding: 0;
 }
 
-html {
-  background-color: var(background-color);
-}
-
 header {
   display: flex;
   display: flex;
@@ -146,6 +142,10 @@ a {
 
 body {
   background-color: whitesmoke;
+}
+
+.top-background-image {
+  height: 20em;
 }
 
 main {

@@ -11,9 +11,6 @@
      // border: solid 1px black;
 }
 
-html {
-     background-color: var(background-color);
-}
 
 //                  HEADER
 
@@ -76,6 +73,9 @@ body {
 
 //                  HOME PAGE 
 
+.top-background-image {
+     height: 20em;
+}
 
 main {
       display: flex;
