@@ -1,5 +1,5 @@
 .top-background-image {
-  background: url("Photos/background1.jpg");
+  background: url("/Test Images/background1.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background: url("Photos/menuBackground1.jpg");
+  background: url("/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: cover;
@@ -15,28 +15,28 @@
 }
 
 .lunch-dinner-menu .overlay {
-  background: url("Photos/menuBackground2.jpg");
+  background: url("/Test Images/menuBackground2.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .desserts-menu .overlay {
-  background: url("Photos/menuBackground3.jpg");
+  background: url("/Test Images/menuBackground3.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .specials-1-background {
-  background: url("Photos/specials-1.jpg");
+  background: url("/Test Images/specials-1.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .specials-2-background {
-  background: url("Photos/specials-2.jpg");
+  background: url("/Test Images/specials-2.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
