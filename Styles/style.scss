@@ -299,9 +299,7 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
-.menus-container {
-     width: 1200px;
-}
+
 
 .specials {
           width: 1000px;
@@ -310,6 +308,10 @@ footer {
 }
 
 @media only screen and (min-width: 1200px){
+.menus-container {
+     width: 1200px;
+}
+
 .thank-you-slideshow {
      width: 800px;
      margin: 2em auto;
