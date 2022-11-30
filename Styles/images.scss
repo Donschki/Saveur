@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    height: 40em;
+    height: 18em;
 }
 
 .breakfast-menu .overlay {
@@ -33,23 +33,4 @@
     background-repeat: no-repeat;    
 }
 
-.menus:hover .menus,
-.menus:focus .menus {
-    transform: scale(1.2);
-}
 
-.breakfast-menu::before {
-    content: "";
-  display: none;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(52, 73, 94, 0.75);
-}
-
-.menus-conainer:hover .menus:before,
-.menus-container:focus .menus::before {
-    display: block;
-}
