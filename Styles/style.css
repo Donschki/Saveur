@@ -12,23 +12,35 @@
   background: url("/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: center;
-  background-attachment: contain;
+  background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .lunch-dinner-menu .overlay {
   background: url("/Test Images/menuBackground2.jpg");
   background-size: 100% 100%;
-  background-position: center;
-  background-attachment: contain;
+  background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .desserts-menu .overlay {
   background: url("/Test Images/menuBackground3.jpg");
   background-size: 100% 100%;
-  background-position: center;
-  background-attachment: contain;
+  background-attachment: cover;
+  background-repeat: no-repeat;
+}
+
+.specials-1-background {
+  background: url("/Test Images/specials-1.jpg");
+  background-size: 100% 100%;
+  background-attachment: cover;
+  background-repeat: no-repeat;
+}
+
+.specials-2-background {
+  background: url("/Test Images/specials-2.jpg");
+  background-size: 100% 100%;
+  background-attachment: cover;
   background-repeat: no-repeat;
 }
 
@@ -140,6 +152,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 100%;
+  gap: 3em;
 }
 
 h1 {
@@ -171,7 +184,6 @@ p {
 }
 
 .welcome-container {
-  margin: 1em 0;
   display: flex;
   flex-direction: column;
   color: var(--color);
@@ -179,13 +191,9 @@ p {
   background-color: whitesmoke;
 }
 
-.thank-you-slideshow {
-  padding: 1em;
-  margin: 1em 0;
-}
-
 .menus-container {
   display: flex;
+  gap: 10px;
   flex-direction: column;
   margin: auto;
   width: 100vw;
@@ -193,15 +201,9 @@ p {
 }
 
 .menus {
-  margin: 1em;
   height: 30em;
   overflow: hidden;
-  position: relative;
-}
-
-.overlay:hover {
-  -webkit-transform: scale(1.2);
-  -webkit-transition: all 0.3s ease-in-out;
+  margin: 10px;
 }
 
 .overlay {
@@ -209,10 +211,53 @@ p {
   -webkit-transition: all 0.3s ease-in-out;
   height: 100%;
   width: 100%;
+  display: flex;
+}
+
+.overlay:hover, .overlay.hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.2);
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .menu-main {
   border: var(--borders);
+}
+
+.specials-1-background, .specials-2-background {
+  width: 50%;
+}
+
+.specials {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.specials-1, .specials-2 {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+.specials-1 p, .specials-2 p {
+  text-align: center;
+}
+
+.specials-2 {
+  flex-direction: row-reverse;
+}
+
+.specials-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.thank-you-slideshow {
+  padding: 1em;
 }
 
 footer {
@@ -227,6 +272,17 @@ footer h2 {
   color: whitesmoke;
 }
 
+.contact-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-container {
+  float: left;
+}
+
 .map {
   height: 450px;
 }
@@ -237,6 +293,9 @@ footer h2 {
   }
 }
 @media only screen and (min-width: 768px) {
+  h2 {
+    width: 100%;
+  }
   nav {
     flex-direction: row;
     top: 6em;
@@ -246,6 +305,9 @@ footer h2 {
   }
   .nav-list {
     display: none;
+  }
+  footer {
+    flex-direction: row;
   }
   .nav-list-extended {
     display: flex;
@@ -276,15 +338,23 @@ footer h2 {
     flex-direction: row;
   }
   .menus {
-    width: 95%;
+    width: 100%;
     height: 30em;
-    margin: 10px;
   }
   .thank-you-slideshow {
     padding: 3em;
   }
   .thank-you-slideshow p {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .menus-container {
+    width: 1200px;
+  }
+  .specials {
+    width: 1000px;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1200px) {
