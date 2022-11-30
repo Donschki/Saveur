@@ -1,6 +1,60 @@
 @import "./style.css";
+.top-background-image {
+  background: url("/Test Images/background1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40em;
+}
+
+.breakfast-menu .overlay {
+  background: url("/Test Images/menuBackground1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: contain;
+  background-repeat: no-repeat;
+}
+
+.lunch-dinner-menu .overlay {
+  background: url("/Test Images/menuBackground2.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: contain;
+  background-repeat: no-repeat;
+}
+
+.desserts-menu .overlay {
+  background: url("/Test Images/menuBackground3.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: contain;
+  background-repeat: no-repeat;
+}
+
+.menus:hover .menus,
+.menus:focus .menus {
+  transform: scale(1.2);
+}
+
+.breakfast-menu::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.menus-conainer:hover .menus:before,
+.menus-container:focus .menus::before {
+  display: block;
+}
+
 :root {
-  --borders: #01257F 2px solid;
+  --borders: #01257F 1px solid;
   --background-color: #01257F;
   --h2-color: #01257F;
   --font-color: #01257F;
@@ -16,6 +70,10 @@ header {
   display: flex;
   display: flex;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   flex-direction: row;
   background-color: var(--background-color);
   padding: 1em;
@@ -49,6 +107,7 @@ nav {
 a {
   text-decoration: none;
   color: whitesmoke;
+  height: 100%;
 }
 
 .nav-item {
@@ -90,25 +149,14 @@ a {
   height: 100vh;
 }
 
-.top-background-image {
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2em;
-  background-color: rgba(1, 37, 127, 0.0156862745);
+  background-color: whitesmoke;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  padding: 0 1em;
+  height: 100%;
 }
 
 h1 {
@@ -140,36 +188,40 @@ p {
 }
 
 .welcome-container {
-  margin: 1em;
+  margin: 1em 0;
   display: flex;
   flex-direction: column;
   color: var(--color);
-  border: var(--borders);
+  padding: 2em;
+  background-color: whitesmoke;
 }
 
 .menus-container {
   display: flex;
   flex-direction: column;
-  gap: 2em;
   margin: auto;
-  width: 100%;
-  padding: 1em 0;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+hr {
+  width: 40%;
+  border: var(--borders);
+  margin: auto;
 }
 
 .menus {
-  width: 100%;
-  height: 25em;
-  border: var(--borders);
+  height: 95vh;
+  margin: 1em;
 }
 
-.containers, .overlay {
+.overlay {
   height: 100%;
 }
 
 .thank-you-slideshow {
   padding: 1em;
   margin: 1em 0;
-  border: var(--borders);
 }
 
 .menu-main {
@@ -198,11 +250,6 @@ footer h2 {
   }
 }
 @media only screen and (min-width: 768px) {
-  main {
-    position: relative;
-    top: -3em;
-    z-index: 1;
-  }
   nav {
     flex-direction: row;
     top: 6em;
@@ -227,16 +274,16 @@ footer h2 {
   }
   .welcome-container {
     margin: auto;
-    word-wrap: normal;
+    word-wrap: break-word;
+    text-align: center;
   }
   .menus-container {
     width: 100%;
     flex-direction: row;
-    gap: 1em;
   }
   .menus {
-    width: 40%;
-    height: 25em;
+    width: 100%;
+    height: 50vh;
   }
   .thank-you-slideshow p {
     text-align: center;
@@ -244,7 +291,14 @@ footer h2 {
 }
 @media only screen and (min-width: 1200px) {
   .welcome-container {
-    padding: 1em 5em;
+    width: 800px;
+  }
+  .thank-you-slideshow {
+    width: 800px;
+    margin: 2em auto;
+  }
+  h1 {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -252,7 +306,8 @@ footer h2 {
     text-align: center;
   }
   main {
-    width: 1500px;
-    margin: auto;
+    padding: 4em;
+    position: relative;
+    top: -250px;
   }
 }/*# sourceMappingURL=style.css.map */

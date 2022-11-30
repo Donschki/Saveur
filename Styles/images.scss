@@ -1,0 +1,55 @@
+
+.top-background-image {
+    background: url('/Test Images/background1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 40em;
+}
+
+.breakfast-menu .overlay {
+    background:  url('/Test Images/menuBackground1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: contain;
+    background-repeat: no-repeat;
+}
+
+.lunch-dinner-menu .overlay {
+    background:  url('/Test Images/menuBackground2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: contain;
+    background-repeat: no-repeat;   
+}
+
+.desserts-menu .overlay {
+    background:  url('/Test Images/menuBackground3.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: contain;
+    background-repeat: no-repeat;    
+}
+
+.menus:hover .menus,
+.menus:focus .menus {
+    transform: scale(1.2);
+}
+
+.breakfast-menu::before {
+    content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 73, 94, 0.75);
+}
+
+.menus-conainer:hover .menus:before,
+.menus-container:focus .menus::before {
+    display: block;
+}
