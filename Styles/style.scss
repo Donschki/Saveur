@@ -1,7 +1,6 @@
 @import "./style.css";
 @import "./mixins.scss";
 @import "./images.scss";
-@import "./form.scss";
 @import "./root.scss";
 
 * {
@@ -133,6 +132,7 @@ p { //ALL PARAGRAPHS
       margin: auto;
       width: 100vw;
       background-color: whitesmoke;
+      border: var(--borders);
 }
 
 .menus {
