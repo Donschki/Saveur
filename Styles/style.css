@@ -199,7 +199,6 @@ p {
   margin: auto;
   width: 100%;
   background-color: whitesmoke;
-  border: var(--borders);
 }
 
 .menus {
