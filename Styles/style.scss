@@ -227,13 +227,15 @@ footer {
       flex-direction: column;
       gap: 2em;
       padding: 10px;
+      width: 100vw;
 
 }
 
 .social-media {
       display: inline-flex;
       justify-content: center;
-      height: 3em;
+      width: 70%;
+      margin: auto;
       gap: 2em;
 }
 
@@ -355,6 +357,7 @@ footer {
 
 .social-media-container {
      padding: 100px;
+     width: 100%;
 
 }}
 
