@@ -47,13 +47,13 @@
   --background-color: #01257F;
   --h2-color: #01257F;
   --font-color: #01257F;
+  --blue: #01257F;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: solid 1px black;
 }
 
 header {
@@ -282,12 +282,13 @@ footer h2 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2em;
 }
 
 .social-media-container {
-  display: grid;
-  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 10px;
 }
 
 .social-media {
@@ -299,7 +300,6 @@ footer h2 {
 
 form {
   width: 100%;
-  padding: 10px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -307,10 +307,15 @@ form {
 
 input {
   padding: 10px;
+  margin: 1em 0;
+}
+
+textarea {
+  margin: 1em 0;
 }
 
 label {
-  padding: 10px;
+  color: whitesmoke;
 }
 
 svg {
@@ -321,6 +326,22 @@ svg {
 
 .map {
   height: 450px;
+}
+
+#submit-button {
+  width: 20%;
+  margin: auto;
+  color: var(--blue);
+  font-size: 1em;
+  background-color: whitesmoke;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#submit-button:hover {
+  background-color: rgba(1, 37, 127, 0.3843137255);
+  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
 }
 
 @media only screen and (min-width: 480px) {
@@ -381,6 +402,9 @@ svg {
   .thank-you-slideshow p {
     text-align: center;
   }
+  .social-media-container {
+    padding: 100px;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .specials {
@@ -392,8 +416,10 @@ svg {
     gap: 0;
   }
   .social-media-container {
-    width: 50%;
+    width: 35%;
     justify-content: space-evenly;
+    padding: 10px;
+    margin: auto;
   }
   form {
     margin: 0;
