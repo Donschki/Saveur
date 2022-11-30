@@ -217,14 +217,47 @@ footer {
 }
 
 .contact-container {
-      width: 100%;
+      margin: auto;
       height: 100%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      gap: 2em;
 }
 
 .social-media-container {
-      float: left;
+      display: grid;
+      gap: 1em;
+}
+
+.social-media {
+      display: inline-flex;
+      justify-content: center;
+      height: 3em;
+      gap: 2em;
+}
+
+form {
+      width: 100%;
+      padding: 10px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+}
+
+input {
+      padding: 10px;
+}
+
+label {
+      padding: 10px;
+}
+
+svg {
+      height: 100%;
+      width: 100%;
+
+      fill: white;
+
 }
 
 .map {
@@ -293,8 +326,6 @@ footer {
 
 .thank-you-slideshow {
 
-     padding: 3em;
-
      p {
             text-align: center;
      }
@@ -309,6 +340,27 @@ footer {
           width: 1000px;
           margin: auto;
 }
+
+.contact-container {
+     flex-direction: row;
+     gap: 0;
+}
+
+.social-media-container {
+     width: 50%;
+     justify-content: space-evenly;
+
+}
+
+form {
+     margin: 0;
+}
+
+.map {
+     width: 48%;
+     margin: auto;
+}
+
 }
 
 @media only screen and (min-width: 1200px){
@@ -318,12 +370,14 @@ footer {
 
 .thank-you-slideshow {
      width: 800px;
-     margin: 2em auto;
+     margin: auto;
 }
 
 h1 {
      text-align: center;
 }
+
+
 
 }
 
