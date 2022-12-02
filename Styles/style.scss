@@ -78,15 +78,17 @@ body {
 
 //                  HOME PAGE 
 
-.home-top-background-image{
-      height: 20em;
+.home-top-background-image {
+      height: 30em;
 }
 
 main {
       display: flex;
+      gap: 2em;
       flex-direction: column;
       height: 100%;
-      gap: 3em;
+      justify-content: center;
+      align-items: center;
 }
 
 h1 { //SAVEUR LOGO
@@ -118,6 +120,12 @@ p { //ALL PARAGRAPHS
       color: var(--font-color)
 }
 
+hr {
+      width: 30%;
+      margin: auto;
+      border: var(--borders);
+}
+
 .welcome-container { //"WELCOME" CONTAINER
       display: flex;
       flex-direction: column;
@@ -139,13 +147,12 @@ p { //ALL PARAGRAPHS
       
       margin: auto;
       width: 100%;
+      height: 100%;
       background-color: whitesmoke;
 }
 
-.menus-container
-
 .menus {
-      height: 30em;
+      height: 100%;
       overflow: hidden;
       margin: 10px;
 }
@@ -153,9 +160,8 @@ p { //ALL PARAGRAPHS
 .overlay {
       transition: all 0.3 ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
-      height: 100vh;
+      height: 50vh;
       width: 100%;
-
       display: flex;
 }
 
@@ -312,6 +318,9 @@ svg {
 }
 
 @media only screen and (min-width: 768px){
+hr {
+      width: 60%;
+}
 
 h2 {
      width: 100%;
@@ -338,10 +347,6 @@ footer {
      @include nav-list-extended;
  }
 
- .home-top-background-image {
-      height: 30em;
- }
-
  main {
       position: relative;
       top: -100px;
@@ -362,6 +367,7 @@ footer {
       width: 100%;
       height: 30em;
 }
+
 
 .thank-you-slideshow {
 

@@ -1,7 +1,7 @@
 .home-top-background-image {
-  background-image: url("/Test Images/background1.jpg");
+  background-image: url("/Saveur/Test Images/background1.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -31,14 +31,14 @@
 }
 
 .specials-1-background {
-  background-image: url("/Saveur/Test Images/specials-1.jpg");
+  background-image: url("/Saveur/Saveur/Test Images/specials-1.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .specials-2-background {
-  background-image: url("/Saveur/Test Images/specials-2.jpg");
+  background-image: url("/Saveur/Saveur/Test Images/specials-2.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 }
 
 :root {
-  --borders: #01257F 1px solid;
+  --borders: #01257F s1px solid;
   --background-color: #01257F;
   --h2-color: #01257F;
   --font-color: #01257F;
@@ -162,14 +162,16 @@ body {
 }
 
 .home-top-background-image {
-  height: 20em;
+  height: 30em;
 }
 
 main {
   display: flex;
+  gap: 2em;
   flex-direction: column;
   height: 100%;
-  gap: 3em;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -201,6 +203,12 @@ p {
   color: var(--font-color);
 }
 
+hr {
+  width: 30%;
+  margin: auto;
+  border: var(--borders);
+}
+
 .welcome-container {
   display: flex;
   flex-direction: column;
@@ -219,11 +227,12 @@ p {
   flex-direction: column;
   margin: auto;
   width: 100%;
+  height: 100%;
   background-color: whitesmoke;
 }
 
-.menus-container .menus {
-  height: 30em;
+.menus {
+  height: 100%;
   overflow: hidden;
   margin: 10px;
 }
@@ -231,7 +240,7 @@ p {
 .overlay {
   transition: all 0.3 ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   display: flex;
 }
@@ -373,6 +382,9 @@ svg {
   }
 }
 @media only screen and (min-width: 768px) {
+  hr {
+    width: 60%;
+  }
   h2 {
     width: 100%;
   }
@@ -401,9 +413,6 @@ svg {
     font-weight: 1000;
     letter-spacing: 2px;
     text-transform: uppercase;
-  }
-  .home-top-background-image {
-    height: 30em;
   }
   main {
     position: relative;
