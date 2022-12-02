@@ -1,7 +1,7 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Test Images/background1.jpg");
-  background-size: contain;
-  background-position: center;
+  background-image: url("/Test Images/background1.jpg");
+  background-size: 100vw;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -9,7 +9,7 @@
 .breakfast-menu .overlay {
   background-image: url("/Saveur/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
-  background-position: top;
+  background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
@@ -17,6 +17,7 @@
 .lunch-dinner-menu .overlay {
   background-image: url("/Saveur/Test Images/menuBackground2.jpg");
   background-size: 100% 100%;
+  background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
@@ -24,6 +25,7 @@
 .desserts-menu .overlay {
   background-image: url("/Saveur/Test Images/menuBackground3.jpg");
   background-size: 100% 100%;
+  background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
