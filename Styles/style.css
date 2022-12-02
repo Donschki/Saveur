@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Test Images/background1.jpg");
+  background-image: url("/Test Images/background1.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background-image: url("/Saveur/Test Images/menuBackground1.jpg");
+  background-image: url("/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: cover;
@@ -62,6 +62,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: solid 1px black;
 }
 
 header {
@@ -218,6 +219,7 @@ p {
   margin: auto;
   width: 100%;
   background-color: whitesmoke;
+  z-index: 100;
 }
 
 .menus {
@@ -229,7 +231,7 @@ p {
 .overlay {
   transition: all 0.3 ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
 }
