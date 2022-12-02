@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-//      border: solid 1px black;
+     border: solid 1px black;
 }
 
 
@@ -126,6 +126,10 @@ hr {
       border: var(--borders);
 }
 
+a {
+      height: 100%;
+}
+
 .welcome-container { //"WELCOME" CONTAINER
       display: flex;
       flex-direction: column;
@@ -160,7 +164,7 @@ hr {
 .overlay {
       transition: all 0.3 ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
-      height: 50vh;
+      height: 100%;
       width: 100%;
       display: flex;
 }
