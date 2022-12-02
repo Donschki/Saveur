@@ -44,6 +44,8 @@ a {
        transition: all 1s ease-in-out;
 }
 
+
+
 .nav-list-extended {
        display: none;
 }
@@ -51,6 +53,12 @@ a {
 .nav-item-extended {
       display: block;
       justify-content: center
+}
+
+.nav-item-extended:hover {
+      background-color: whitesmoke;
+      color: #01257F;
+      transition: all 0.3s ease-in-out;
 }
 
 .hamburger-menu {
