@@ -69,11 +69,11 @@
 
 
 .menu-top-background-image {
-      background-image: url("/Saveur/Test-Images/pizza-background.jpg");
-      background-size: 100% 30em;
-      background-position: top;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+       background-image: url("/Saveur/Test-Images/pizza-background.jpg");
+       background-size: 100% 30em;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
 }
 
 
@@ -84,26 +84,34 @@
        background-size: 100% 100% ;
        background-position: top;
        background-repeat: no-repeat;
+       background-attachment: contain;
+
 }
 
 .lunchdinner-items-1 {
-      background-image: url("/Saveur/Menu-Images/lunchdinner-menu-1.jpg");
-      background-size: 100% 100%;
-      background-position: top;
-      background-repeat: no-repeat;
+       background-image: url("/Saveur/Menu-Images/lunchdinner-menu-1.jpg");
+       background-size: 100% 100%;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-attachment: contain;
+
 }
 
 .lunchdinner-items-2 {
-      background-image: url("/Menu-Images/lunchdinner-menu-2.jpg");
-      background-size: 100% 100%;
-      background-position: top;
-      background-repeat: no-repeat;
+       background-image: url("/Menu-Images/lunchdinner-menu-2.jpg");
+       background-size: 100% 100%;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-attachment: contain;
+
 }
 
 .drinks-items {
-      background-image: url("/Menu-Images/drinks-menu.jpg");
-      background-size: 100% 100%;
-      background-position: top;
-      background-repeat: no-repeat;
+       background-image: url("/Menu-Images/drinks-menu.jpg");
+       background-size: 100% 100%;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-attachment: contain;
+
 }
 
