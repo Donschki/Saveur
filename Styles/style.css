@@ -529,7 +529,8 @@ svg {
     margin: 0;
   }
   .map {
-    width: 48%;
+    width: 60%;
+    height: 40em;
     margin: auto;
   }
   .specials p {
