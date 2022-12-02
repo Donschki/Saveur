@@ -47,7 +47,7 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Test Images/background1.jpg");
   background-size: contain;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -388,9 +388,6 @@ svg {
   }
 }
 @media only screen and (min-width: 768px) {
-  .menu-top-background-image {
-    height: 30em;
-  }
   hr {
     width: 60%;
   }
