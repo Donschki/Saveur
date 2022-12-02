@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     // border: solid 1px black;
+//      border: solid 1px black;
 }
 
 
@@ -29,21 +29,28 @@ nav {
 a {
     text-decoration: none;
     color: whitesmoke;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-item {
-     margin: 1em 0;
-     font-size: 2em;
-     font-weight: 500;
-     color: whitesmoke;
-     text-align: center;
-     width: 100%;
-     transition: all 1s ease-in-out;
+       margin: 1em 0;
+       font-size: 2em;
+       font-weight: 500;
+       color: whitesmoke;
+       text-align: center;
+       width: 100%;
+       transition: all 1s ease-in-out;
 }
 
 .nav-list-extended {
-     display: none;
+       display: none;
+}
+
+.nav-item-extended {
+      display: block;
+      justify-content: center
 }
 
 .hamburger-menu {
@@ -58,11 +65,11 @@ a {
 }
 
 .change {
-     padding-top: 2em ;
-     display: flex;
-     flex-direction: column;
-     font-size: 5vw;
-     height: 100vh;
+       padding-top: 2em ;
+       display: flex;
+       flex-direction: column;
+       font-size: 5vw;
+       height: 100vh;
 }
 
 body {
@@ -71,7 +78,7 @@ body {
 
 //                  HOME PAGE 
 
-.top-background-image {
+.home-top-background-image {
       height: 20em;
 }
 
@@ -323,7 +330,7 @@ footer {
      @include nav-list-extended;
  }
 
- .top-background-image {
+ .home-top-background-image {
       height: 30em;
  }
 

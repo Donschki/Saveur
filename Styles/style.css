@@ -1,6 +1,6 @@
-.top-background-image {
+.home-top-background-image {
   background-image: url("/Saveur/Test Images/background1.jpg");
-  background-size: 100% 100%;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -97,7 +97,9 @@ nav {
 a {
   text-decoration: none;
   color: whitesmoke;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item {
@@ -112,6 +114,11 @@ a {
 
 .nav-list-extended {
   display: none;
+}
+
+.nav-item-extended {
+  display: block;
+  justify-content: center;
 }
 
 .hamburger-menu {
@@ -144,7 +151,7 @@ body {
   background-color: whitesmoke;
 }
 
-.top-background-image {
+.home-top-background-image {
   height: 20em;
 }
 
@@ -380,7 +387,7 @@ svg {
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  .top-background-image {
+  .home-top-background-image {
     height: 30em;
   }
   main {
