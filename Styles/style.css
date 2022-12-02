@@ -488,7 +488,8 @@ svg {
     text-align: center;
   }
   .social-media-container {
-    padding: 100px;
+    width: 60%;
+    margin: auto;
   }
   .items {
     height: 100em;
