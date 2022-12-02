@@ -142,11 +142,13 @@ p { //ALL PARAGRAPHS
       background-color: whitesmoke;
 }
 
+.menus-container
+
 .menus {
       height: 30em;
       overflow: hidden;
       margin: 10px;
-      box-shadow: 0 0 20px 1px  #01257F
+      box-shadow: 0 0 5px 1px  #01257F
 }
 
 .overlay {
@@ -193,6 +195,8 @@ p { //ALL PARAGRAPHS
       display: flex;
       flex-direction: row;
 
+
+
      p {
           text-align: center;
      }
@@ -200,6 +204,7 @@ p { //ALL PARAGRAPHS
 
 .specials-2 {
      flex-direction: row-reverse;
+
 }
 
 .specials-info {
