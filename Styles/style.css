@@ -1,7 +1,7 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Test Images/background1.jpg");
-  background-size: 100vw;
-  background-position: top;
+  background-image: url("/Test Images/background1.jpg");
+  background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -47,7 +47,7 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Test Images/background1.jpg");
   background-size: contain;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
