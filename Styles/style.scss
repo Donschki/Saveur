@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-//      border: solid 1px black;
+     border: solid 1px black;
 }
 
 
@@ -256,7 +256,7 @@ footer {
       flex-direction: column;
       gap: 2em;
       padding: 10px;
-      width: 100vw;
+      width: 100%;
 
 }
 
@@ -371,7 +371,6 @@ footer {
  }
  
 .welcome-container {
-      width: 800px;
       margin: auto;
       text-align: center;
 }
@@ -387,7 +386,6 @@ footer {
       height: 30em;
 }
 
-
 .thank-you-slideshow {
 
      p {
@@ -397,7 +395,6 @@ footer {
 
 .social-media-container {
       padding: 100px;
-      width: 100%;
 }
 
 .items {
@@ -412,6 +409,11 @@ footer {
 
 .menu-top-background-image {
       height: 30em;
+}
+
+.welcome-container {
+      width: 800px;
+
 }
 
 .specials {
