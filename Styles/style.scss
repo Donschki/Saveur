@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-     border: solid 1px black;
+//      border: solid 1px black;
 }
 
 
@@ -147,6 +147,7 @@ p { //ALL PARAGRAPHS
       height: 30em;
       overflow: hidden;
       margin: 10px;
+      box-shadow: 0 0 10px 1px  #01257F
 }
 
 .overlay {
