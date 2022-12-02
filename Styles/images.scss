@@ -77,4 +77,12 @@
 }
 
 
-//                 MENU - TOP BACKGROUND IMAGE
+//                 MENU - BREAKFAST MENU
+
+.breakfast-items {
+       background-image: url("/Saveur/Test Images/pizza-background.jpg");
+       background-size: contain;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+}

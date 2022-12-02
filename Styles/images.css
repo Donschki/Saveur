@@ -50,4 +50,12 @@
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.breakfast-items {
+  background-image: url("/Saveur/Test Images/pizza-background.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }/*# sourceMappingURL=images.css.map */

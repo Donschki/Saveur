@@ -162,7 +162,7 @@ a {
 .overlay {
        transition: all 0.3 ease-in-out;
        -webkit-transition: all 0.3s ease-in-out;
-       height: 100%;
+       height: 100vh;
        width: 100%;
        display: flex;
 }
