@@ -375,6 +375,18 @@ footer h2 {
   gap: 2em;
 }
 
+svg {
+  transition: all 0.3s ease-in-out;
+  padding: 0;
+}
+
+svg:hover {
+  fill: var(--blue);
+  background-color: whitesmoke;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
 form {
   width: 100%;
   margin: auto;
