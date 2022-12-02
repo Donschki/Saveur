@@ -228,7 +228,6 @@ a {
 
 .menus-container {
   display: flex;
-  gap: 10px;
   flex-direction: column;
   margin: auto;
   width: 100%;
