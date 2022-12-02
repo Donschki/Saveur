@@ -179,12 +179,13 @@ p { //ALL PARAGRAPHS
 }
 
 .specials {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
 
       h2 {
-          font-size: 1.1em;
+           font-size: 1.1em;
       }
 }
 
