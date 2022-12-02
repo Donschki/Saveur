@@ -86,7 +86,6 @@ main {
       display: flex;
       gap: 5em;
       flex-direction: column;
-      height: 100%;
 }
 
 h1 { //SAVEUR LOGO
@@ -139,6 +138,14 @@ a {
 
 
 //                  MENU PAGE 
+
+
+.menu-main {
+      display: flex;
+      padding: 10px;
+      gap: 3em;
+}
+
 .menu-top-background-image {
        height: 15em;
 }
@@ -174,9 +181,10 @@ a {
        -webkit-transition: all 0.3s ease-in-out;
 }
 
-.menu-main {
-       border: var(--borders);
+.items {
+      height: 100vh;
 }
+
 
 
 //                     SPECIALS
@@ -324,6 +332,10 @@ svg {
       height: 20em;
 }
 
+.menu-top-background-image {
+      height: 20em;
+}
+
 hr {
       width: 60%;
 }
@@ -387,10 +399,18 @@ footer {
       padding: 100px;
       width: 100%;
 }
+
+.items {
+      height: 100em;
+}
 }
 
 @media only screen and (min-width: 1000px){
 .home-top-background-image {
+      height: 30em;
+}
+
+.menu-top-background-image {
       height: 30em;
 }
 
@@ -427,6 +447,8 @@ p {
 
 }
 
+
+
 @media only screen and (min-width: 1200px){
 
 .menus-container {
@@ -440,6 +462,11 @@ p {
 
 h1 {
      text-align: center;
+}
+
+.menu-main {
+      width: 1000px;
+      margin: auto;
 }
 
 

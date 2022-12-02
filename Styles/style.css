@@ -45,19 +45,39 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Test Images/pizza-background.jpg");
-  background-size: contain;
-  background-position: top;
+  background-image: url("/Test Images/pizza-background.jpg");
+  background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-items {
-  background-image: url("/Saveur/Test Images/pizza-background.jpg");
-  background-size: contain;
+  background-image: url("/Menu Images/breakfast-menu.JPG");
+  background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+.lunchdinner-items-1 {
+  background-image: url("/Menu Images/lunchdinner-menu-1.JPG");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.lunchdinner-items-2 {
+  background-image: url("/Menu Images/lunchdinner-menu-2.JPG");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.drinks-items {
+  background-image: url("/Menu Images/drinks-menu.JPG");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 :root {
@@ -177,7 +197,6 @@ main {
   display: flex;
   gap: 5em;
   flex-direction: column;
-  height: 100%;
 }
 
 h1 {
@@ -228,6 +247,12 @@ a {
   background-color: whitesmoke;
 }
 
+.menu-main {
+  display: flex;
+  padding: 10px;
+  gap: 3em;
+}
+
 .menu-top-background-image {
   height: 15em;
 }
@@ -262,8 +287,8 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
-.menu-main {
-  border: var(--borders);
+.items {
+  height: 100vh;
 }
 
 .specials-1-background, .specials-2-background {
@@ -396,6 +421,9 @@ svg {
   .home-top-background-image {
     height: 20em;
   }
+  .menu-top-background-image {
+    height: 20em;
+  }
   hr {
     width: 60%;
   }
@@ -453,9 +481,15 @@ svg {
     padding: 100px;
     width: 100%;
   }
+  .items {
+    height: 100em;
+  }
 }
 @media only screen and (min-width: 1000px) {
   .home-top-background-image {
+    height: 30em;
+  }
+  .menu-top-background-image {
     height: 30em;
   }
   .specials {
@@ -493,6 +527,10 @@ svg {
   }
   h1 {
     text-align: center;
+  }
+  .menu-main {
+    width: 1000px;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1500px) {
