@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("Saveur/Test Images/background1.jpg");
+  background-image: url("/Saveur/Test Images/background1.jpg");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Test Images/background1.jpg");
+  background-image: url("/Saveur/Test Images/pizza-background.jpg");
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 }
 
 :root {
-  --borders: #01257F s1px solid;
+  --borders: #01257F 1px solid;
   --background-color: #01257F;
   --h2-color: #01257F;
   --font-color: #01257F;
@@ -202,7 +202,7 @@ p {
 }
 
 hr {
-  width: 30%;
+  width: 50%;
   margin: auto;
   color: #01257F;
   opacity: 0.5;
