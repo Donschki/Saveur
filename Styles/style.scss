@@ -79,7 +79,7 @@ body {
 //                  HOME PAGE 
 
 .home-top-background-image {
-      height: 30em;
+      height: 15em;
 }
 
 main {
@@ -137,7 +137,7 @@ hr {
 
 //                  MENU PAGE 
 .menu-top-background-image {
-      height: 20em;
+      height: 15em;
 }
 
 .menus-container { //CONTAINS THE MENUS
@@ -312,12 +312,20 @@ svg {
 
 
 @media only screen and (min-width: 480px){
+.home-top-background-image {
+       height: 30em;
+}
+
     .menus-container {
          width: 480px;
     }
 }
 
 @media only screen and (min-width: 768px){
+.menu-top-background-image {
+       height: 30em;
+}
+
 hr {
       width: 60%;
 }
