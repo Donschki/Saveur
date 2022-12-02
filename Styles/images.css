@@ -53,14 +53,14 @@
 }
 
 .breakfast-items {
-  background-image: url("/Menu-Images/breakfast-menu.jpg");
+  background-image: url("Menu-Images/breakfast-menu.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
 }
 
 .lunchdinner-items-1 {
-  background-image: url("/Menu-Images/lunchdinner-menu-1.jpg");
+  background-image: url("/Saveur/Menu-Images/lunchdinner-menu-1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
