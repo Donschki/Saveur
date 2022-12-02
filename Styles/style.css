@@ -42,6 +42,14 @@
   background-repeat: no-repeat;
 }
 
+.menu-top-background-image {
+  background-image: url("/Saveur/Test Images/background1.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 :root {
   --borders: #01257F 1px solid;
   --background-color: #01257F;
@@ -197,6 +205,10 @@ p {
   color: var(--color);
   padding: 2em;
   background-color: whitesmoke;
+}
+
+.menu-top-background-image {
+  height: 20em;
 }
 
 .menus-container {

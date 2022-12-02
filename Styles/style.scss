@@ -128,7 +128,9 @@ p { //ALL PARAGRAPHS
 
 
 //                  MENU PAGE 
-
+.menu-top-background-image {
+      height: 20em;
+}
 
 .menus-container { //CONTAINS THE MENUS
       display: flex;
@@ -370,7 +372,6 @@ footer {
 
 @media only screen and (min-width: 1000px){
 
-
 .specials {
       width: 1000px;
       margin: auto;
@@ -400,6 +401,7 @@ form {
 }
 
 @media only screen and (min-width: 1200px){
+
 .menus-container {
      width: 1200px;
 }

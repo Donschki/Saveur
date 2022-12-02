@@ -40,4 +40,12 @@
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
+}
+
+.menu-top-background-image {
+  background-image: url("/Saveur/Test Images/background1.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }/*# sourceMappingURL=images.css.map */
