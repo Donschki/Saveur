@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background-image: url("/Saveur/Test Images/menuBackground1.jpg");
+  background-image: url("/Test Images/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -15,7 +15,7 @@
 }
 
 .lunch-dinner-menu .overlay {
-  background-image: url("/Saveur/Test Images/menuBackground2.jpg");
+  background-image: url("/Test Images/menuBackground2.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -23,7 +23,7 @@
 }
 
 .desserts-menu .overlay {
-  background-image: url("/Saveur/Test Images/menuBackground3.jpg");
+  background-image: url("/Test Images/menuBackground3.jpg");
   background-size: 100% 100%;
   background-position: bottom;
   background-attachment: contain;
