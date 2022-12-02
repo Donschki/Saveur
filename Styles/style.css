@@ -137,15 +137,6 @@ nav {
   display: none;
 }
 
-a {
-  text-decoration: none;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
 .nav-item {
   margin: 1em 0;
   font-size: 2em;
@@ -159,10 +150,16 @@ a {
 .nav-list-extended {
   display: none;
 }
-
-.nav-item-extended {
+.nav-list-extended a {
+  text-decoration: none;
+  color: whitesmoke;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item-extended {
   transition: all 0.3s ease-in-out;
 }
 
@@ -246,10 +243,6 @@ hr {
   margin: auto;
   color: #01257F;
   opacity: 0.5;
-}
-
-a {
-  height: 100%;
 }
 
 .welcome-container {

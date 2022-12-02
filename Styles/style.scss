@@ -26,14 +26,7 @@ nav {
    @include nav-list;
 }
 
-a {
-    text-decoration: none;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
+
 
 .nav-item {
        margin: 1em 0;
@@ -49,11 +42,18 @@ a {
 
 .nav-list-extended {
        display: none;
+
+       a {
+            text-decoration: none;
+            color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
 }
 
 .nav-item-extended {
-      display: flex;
-      justify-content: center;
       transition: all 0.3s ease-in-out;
 
 }
@@ -133,10 +133,6 @@ hr {
        margin: auto;
        color: #01257F;
        opacity: 0.5;
-}
-
-a {
-       height: 100%;
 }
 
 .welcome-container { //"WELCOME" CONTAINER
