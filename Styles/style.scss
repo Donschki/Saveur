@@ -315,9 +315,6 @@ svg {
 
 
 @media only screen and (min-width: 480px){
-.home-top-background-image {
-       height: 30em;
-}
 
     .menus-container {
          width: 480px;
@@ -325,6 +322,10 @@ svg {
 }
 
 @media only screen and (min-width: 768px){
+
+.home-top-background-image {
+      height: 20em;
+}
 
 hr {
       width: 60%;
@@ -391,6 +392,9 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
+.home-top-background-image {
+      height: 30em;
+}
 
 .specials {
       width: 1000px;
