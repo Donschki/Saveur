@@ -530,7 +530,7 @@ svg:hover {
     margin: auto;
   }
   .social-media {
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .items {
     height: 100em;
