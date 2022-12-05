@@ -438,12 +438,11 @@ label {
 }
 
 svg {
-  fill: white;
   width: 2.5em;
   transition: all 0.3s ease-in-out;
-  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  fill: whitesmoke;
   border-radius: 50%;
-  background-color: #01257F;
 }
 
 path {
@@ -451,10 +450,11 @@ path {
 }
 
 svg:hover {
-  fill: white;
   transition: all 0.3s ease-in-out;
-  border-radius: 1px;
-  background-color: #01257F;
+  border-radius: 5px;
+  fill: #01257F;
+  background-color: whitesmoke;
+  padding: 1px;
 }
 
 .map {
