@@ -180,7 +180,7 @@ hr {
        -webkit-transition: all 0.3s ease-in-out;
        height: 100%;
        width: 100%;
-       display: flex;
+       display: flex !important;
 }
 
 .overlay:hover, .overlay.hover {
@@ -516,10 +516,7 @@ form {
 p {
       width: 20em;
 }}
-
 }
-
-
 
 @media only screen and (min-width: 1200px){
 
