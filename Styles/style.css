@@ -301,6 +301,9 @@ hr {
   align-items: center;
   box-shadow: inset 0 0 200px 200px rgba(1, 37, 127, 0.3647058824);
 }
+.overlay p {
+  color: white;
+}
 
 .overlay:hover, .overlay.hover {
   transform: scale(1.2);
