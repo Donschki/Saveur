@@ -270,6 +270,7 @@ form {
        margin: auto;
        display: flex;
        flex-direction: column;
+       gap: 3px;
 }
 
 input {
@@ -277,7 +278,8 @@ input {
 }
 
 textarea {
-      margin: 1em 0;
+       margin: auto;
+       width: 100%;
 }
 
 label {
@@ -496,6 +498,7 @@ footer {
 .social-media-container {
        width: 35%;
        margin: auto;
+       padding: 0;
 }
 
 form {
@@ -512,6 +515,7 @@ form {
        display: flex;
        flex-direction: column;
        gap: 2em;
+       padding: 0;
 }
 
 .specials {
