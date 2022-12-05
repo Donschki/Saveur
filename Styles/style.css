@@ -572,7 +572,7 @@ svg:hover {
     height: 30em;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 2em;
   }
   .specials p {
     width: 20em;
