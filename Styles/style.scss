@@ -180,7 +180,12 @@ hr {
        height: 100vh;
        overflow: hidden;
        margin: 10px ;
+
+      
+
 }
+
+
 
 .overlay {
        transition: all 0.3 ease-in-out;
@@ -198,14 +203,15 @@ hr {
 
 .overlay:hover, .overlay.hover {
        transform: scale(1.2);
-       transition: all 0.3s ease-in-out;
        -webkit-transform: scale(1.2);
+       transition: all 0.3s ease-in-out;
         -webkit-transition: all 0.3s ease-in-out;
         box-shadow: inset 0 0 0 0 #01257f00;
-        font-size: 2em;
+        
+       p {
+             opacity: 0;
+       }
 }
-
-
 
 // .overlay-title {
 //       width: 100%;
