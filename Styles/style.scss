@@ -6,7 +6,7 @@
      box-sizing: border-box;
      margin: 0;
      padding: 0;
-//      border: solid 1px black;
+     border: solid 1px black;
 }
 
 html {
@@ -306,6 +306,18 @@ svg {
         font-size: 1em ;
         display: flex !important;
         flex-direction: row;
+
+          a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            gap: 5px;
+            font-style: none;
+            text-decoration: none;
+            color: whitesmoke;
+     }
 }
 
 svg {
@@ -319,17 +331,7 @@ svg {
         margin: auto;
 }
 
-a {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       text-align: center;
-       width: 100%;
-       gap: 5px;
-       font-style: none;
-       text-decoration: none;
-       color: whitesmoke;
-}
+
 
 path {
         margin: auto;
