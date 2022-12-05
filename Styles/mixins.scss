@@ -9,7 +9,6 @@
 
       flex-direction: row;
       background-color: var(--background-color);
-      padding: 1em;
       color: var(--blue);
 }
 
@@ -52,30 +51,29 @@
 }
 
 @mixin nav-list-extended {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      width: 100%;
-      justify-content: space-evenly;
-      align-items: center;
-      color: white;
-      font-size: 1.1em;
-      font-weight: 1000;
-      letter-spacing: 2px;
-      text-transform: uppercase;
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       width: 100%;
+       justify-content: space-evenly;
+       align-items: center;
+       color: white;
+       font-size: 1.1em;
+       font-weight: 1000;
+       letter-spacing: 2px;
+       text-transform: uppercase;
 }
 
 
 @mixin footer {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      text-align: center;
-      border: var(--borders);
-      color: whitesmoke;
-      background-color: var(--background-color);
-
-      h2 {
-          color: whitesmoke;
-     }
+       display: flex;
+       width: 100%;
+       flex-direction: column;
+       border: var(--borders);
+       color: whitesmoke;
+       background-color: var(--background-color);
+ 
+       h2 {
+           color: whitesmoke;
+      }
 }

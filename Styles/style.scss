@@ -16,6 +16,7 @@
 header {
      display: flex;
      @include header;
+     padding: 10px
 }
 
 nav {
@@ -26,8 +27,6 @@ nav {
    @include nav-list;
 }
 
-
-
 .nav-item {
        margin: 1em 0;
        font-size: 2em;
@@ -37,8 +36,6 @@ nav {
        width: 100%;
        transition: all 1s ease-in-out;
 }
-
-
 
 .nav-list-extended {
        display: none;
@@ -190,50 +187,49 @@ hr {
 }
 
 .items {
-      height: 100vh;
+       height: 100vh;
 }
-
-
+  
 
 //                     SPECIALS
  
 
 .specials-1-background, .specials-2-background {
-      width: 50%;
+       width: 50%;
 }
 
 .specials {
-       height: 100%;
-       display: flex;
-       flex-direction: column;
-       margin: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
 
       h2 {
-           font-size: 1.1em;
-           padding: 5px;
+        font-size: 1.1em;
+        padding: 5px;
       }
 }
 
 .specials-1, .specials-2 {
-       height: 300px;
-       display: flex;
-       flex-direction: row;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
 
-       p {
-          text-align: center;
-      }
+        p {
+            text-align: center;
+       }
 }
 
 .specials-2 {
-       flex-direction: row-reverse;
+        flex-direction: row-reverse;
 }
 
 .specials-info {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
 }
 
 
@@ -241,7 +237,7 @@ hr {
 
 
 .thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
-     padding: 1em;
+        padding: 1em;
 }
 
 
@@ -249,44 +245,23 @@ hr {
 
 
 footer {
-       @include footer;
+        @include footer;
 }
 
 .contact-container {
-       margin: auto;
-       width: 100%;
-       height: 100%;
-       display: flex;
-       flex-direction: column;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        display: flex !important;
+        flex-direction: column;
+        gap: 2em;
 }
 
-.social-media-container {
-       display: flex;
-       flex-direction: column;
-       gap: 2em;
-       padding: 10px;
-       width: 100%;
-}
 
-.social-media {
-       display: inline-flex;
-       justify-content: center;
-       width: 70%;
-       margin: auto;
-       gap: 2em;
-}
 
-svg {
-       transition: all 0.3s ease-in-out;
-       padding: 0;
-}
 
-svg:hover {
-       fill: var(--blue);
-       background-color: whitesmoke;
-       transition: all 0.3s ease-in-out;
-       border-radius: 5px;
-}
+//                     FORM
+
 
 form {
        width: 100%;
@@ -297,7 +272,6 @@ form {
 
 input {
        padding: 10px;
-       margin: 1em 0;
 }
 
 textarea {
@@ -309,20 +283,81 @@ label {
 }
 
 svg {
-      height: 100%;
-      width: 50%;
-
-      fill: white;
+       fill: white;
+       width: 2.5em;
 
 }
 
+
+//                     SOCIAL MEDIA
+
+
+.social-media-container {
+        display: flex !important;
+        flex-direction: column;
+        gap: 2em;
+        padding: 10px;
+        width: 100%;
+}
+
+.social-media-icons {
+        font-size: 1em ;
+        display: flex !important;
+        flex-direction: row;
+}
+
+svg {
+       transition: all 0.3s ease-in-out;
+}
+
+.social-media {
+        display: inline-flex !important;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+}
+
+a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 100%;
+       gap: 5px;
+       font-style: none;
+       text-decoration: none;
+       color: whitesmoke;
+}
+
+path {
+        margin: auto;
+}
+
+svg:hover {
+       fill: var(--blue);
+       background-color: whitesmoke;
+       transition: all 0.3s ease-in-out;
+       border-radius: 5px;
+}
+
+
+//                     MAP
+
+
 .map {
-      height: 450px;
+      width: 100%;
+      height: 30em;
+      flex-direction: column;
+      gap: 5px;
+}
+
+iframe {
+      height: 80%;
 }
 
 #submit-button {
-      width: 20%;
       margin: auto;
+      border-radius: 5px;
       color: var(--blue);
       font-size: 1em;
       background-color: whitesmoke;
@@ -420,6 +455,10 @@ footer {
       margin: auto;
 }
 
+.social-media {
+       justify-content: space-evenly;
+}
+
 .items {
       height: 100em;
 }
@@ -448,23 +487,29 @@ footer {
 .contact-container {
       flex-direction: row;
       gap: 0;
+      margin: auto;
+      margin: 1em;
 }
 
 .social-media-container {
-      width: 35%;
-      justify-content: space-evenly;
-      padding: 10px;
-      margin: auto;
+       width: 35%;
+       margin: auto;
 }
 
 form {
       margin: 0;
 }
 
+.footer {
+      height: 100vh;
+}
+
 .map {
        width: 60%;
-       height: 40em;
-       margin: auto;
+       height: 30em;
+       display: flex;
+       flex-direction: column;
+       gap: 5px;
 }
 
 .specials {
