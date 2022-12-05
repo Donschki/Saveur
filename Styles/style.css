@@ -415,12 +415,16 @@ label {
   width: 100%;
   margin: auto;
 }
+.social-media span {
+  width: 100%;
+}
 
 svg {
   fill: white;
   width: 2.5em;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
+  border-radius: 50%;
 }
 
 path {
@@ -431,7 +435,7 @@ svg:hover {
   fill: var(--blue);
   background-color: whitesmoke;
   transition: all 0.3s ease-in-out;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .map {
@@ -531,6 +535,7 @@ svg:hover {
   }
   .social-media {
     justify-content: space-around;
+    width: 50%;
   }
   .items {
     height: 100em;
