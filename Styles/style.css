@@ -131,11 +131,9 @@ nav {
 }
 
 .nav-list {
-  list-style: none;
-  top: 0em;
-  height: 100vh;
+  top: 0;
+  height: 10em;
   width: 100%;
-  position: relative;
   background-color: var(--background-color);
   transition: 1.2s ease;
   display: none;
@@ -149,6 +147,12 @@ nav {
   text-align: center;
   width: 100%;
   transition: all 1s ease-in-out;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .nav-list-extended {
