@@ -46,7 +46,7 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Photos/seafood-background.jpg");
+  background-image: url("/Photos/seafood-background.jpg");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -54,23 +54,23 @@
 }
 
 .breakfast-items {
-  background-image: url("/Saveur/Menu-Images/breakfast-menu.jpg");
+  background-image: url("/Menu-Images/breakfast-menu.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
 }
 
-.lunchdinner-items-1 {
-  background-image: url("/Saveur/Menu-Images/lunchdinner-menu-1.jpg");
+.lunch-dinner-items-1 {
+  background-image: url("/Menu-Images/lunchdinner-menu-1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
 }
 
-.lunchdinner-items-2 {
-  background-image: url("/Saveur/Menu-Images/lunchdinner-menu-2.jpg");
+.lunch-dinner-items-2 {
+  background-image: url("/Menu-Images/lunchdinner-menu-2.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@
 }
 
 .drinks-items {
-  background-image: url("/Saveur/Menu-Images/drinks-menu.jpg");
+  background-image: url("/Menu-Images/drinks-menu.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -548,7 +548,7 @@ svg:hover {
     position: relative;
     top: -100px;
     gap: 2em;
-    width: 800px;
+    width: 80%;
     margin: auto;
   }
   .welcome-container {
@@ -581,6 +581,17 @@ svg:hover {
   }
 }
 @media only screen and (min-width: 1000px) {
+  main {
+    top: -200px;
+    width: 90%;
+  }
+  main div {
+    width: 90%;
+    margin: auto;
+  }
+  main .lunchdinner-items-2 {
+    display: none;
+  }
   .home-top-background-image {
     height: 30em;
   }
@@ -591,7 +602,7 @@ svg:hover {
     width: 800px;
   }
   .specials {
-    width: 1000px;
+    width: 100%;
     margin: auto;
   }
   .contact-container {
@@ -624,7 +635,10 @@ svg:hover {
 }
 @media only screen and (min-width: 1200px) {
   main {
-    width: 100%;
+    width: 70%;
+  }
+  .lunchdinner-items-2 {
+    display: visible;
   }
   .menus-container {
     width: 1200px;

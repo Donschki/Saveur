@@ -181,8 +181,6 @@ hr {
        margin: 10px ;
 }
 
-
-
 .overlay {
        transition: all 0.3 ease-in-out;
        -webkit-transition: all 0.3s ease-in-out;
@@ -497,7 +495,7 @@ footer {
       position: relative;
       top: -100px;
       gap: 2em;
-      width: 800px;
+      width: 80%;
       margin: auto;
  }
  
@@ -541,6 +539,18 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
+main{ 
+      top: -200px;
+      width: 90%;
+
+div {
+      width: 90%;
+      margin: auto;
+}
+
+.lunchdinner-items-2{
+      display: none;
+}}
 
 .home-top-background-image {
       height: 30em;
@@ -556,7 +566,7 @@ footer {
 }
 
 .specials {
-       width: 1000px;
+       width: 100%;
        margin: auto;
 }
 
@@ -597,7 +607,11 @@ p {
 
 @media only screen and (min-width: 1200px){
 main {
-      width: 100%;
+      width: 70%;
+}
+
+.lunchdinner-items-2{
+      display: visible;
 }
 
 .menus-container {
