@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
+  background-image: url("/Photos/background1.jpg");
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -7,30 +7,30 @@
 }
 
 .breakfast-menu {
-  background-image: url("/Saveur/Photos/menuBackground1.jpg");
+  background-image: url("/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.lunch-dinner-menu {
-  background-image: url("/Saveur/Photos/menuBackground2.jpg");
+.lunch-dinner-menu .overlay {
+  background-image: url("/Photos/menuBackground2.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.drinks-menu {
-  background-image: url("/Saveur/Photos/menuBackground3.jpg");
+.drinks-menu .overlay {
+  background-image: url("/Photos/menuBackground3.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.specials-1-background {
+.specials-1-background .overlay {
   background-image: url("/Saveur/Photos/specials-1.jpg");
   background-size: 100% 100%;
   background-attachment: cover;

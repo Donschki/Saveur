@@ -1,36 +1,36 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
+  background-image: url("/Photos/background1.jpg");
   background-size: 100%;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.breakfast-menu {
-  background-image: url("/Saveur/Photos/menuBackground1.jpg");
+.breakfast-menu .overlay {
+  background-image: url("/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.lunch-dinner-menu {
-  background-image: url("/Saveur/Photos/menuBackground2.jpg");
+.lunch-dinner-menu .overlay {
+  background-image: url("/Photos/menuBackground2.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.drinks-menu {
-  background-image: url("/Saveur/Photos/menuBackground3.jpg");
+.drinks-menu .overlay {
+  background-image: url("/Photos/menuBackground3.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
 
-.specials-1-background {
+.specials-1-background .overlay {
   background-image: url("/Saveur/Photos/specials-1.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
@@ -301,6 +301,10 @@ hr {
 }
 .overlay p {
   color: white;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  letter-spacing: 3px;
 }
 
 .overlay:hover, .overlay.hover {
@@ -312,6 +316,13 @@ hr {
 }
 .overlay:hover p, .overlay.hover p {
   opacity: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  letter-spacing: 10px;
+}
+
+.overlay-title:hover {
+  padding: 10px;
 }
 
 .items {
