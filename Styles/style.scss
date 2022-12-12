@@ -105,6 +105,9 @@ main {
       display: flex;
       gap: 3em;
       flex-direction: column;
+      top: -60px;
+      position: relative;
+      padding: 0 1em;
 }
 
 h1 { //SAVEUR LOGO
@@ -148,6 +151,7 @@ hr {
        flex-direction: column;
        color: var(--color);
        padding: 10px;
+       margin: auto;
        background-color: whitesmoke;
 } 
 
@@ -155,11 +159,6 @@ hr {
 //                  MENU PAGE 
 
 
-.menu-main {
-       display: flex;
-       padding: 10px;
-       gap: 3em;
-}
 
 .menu-top-background-image {
        height: 15em;
@@ -180,9 +179,6 @@ hr {
        height: 100vh;
        overflow: hidden;
        margin: 10px ;
-
-      
-
 }
 
 
@@ -227,10 +223,6 @@ hr {
 //       right: 0;
 //       bottom: 0;
 // }
-
-.overlay-title:hover {
-      padding: 10px;
-}
 
 
 
@@ -392,7 +384,6 @@ svg:hover {
        border-radius: 5px;
        fill: #01257F;
        background-color: whitesmoke;
-       padding: 1px;
 }
 
 
@@ -425,14 +416,22 @@ svg:hover {
 #submit-button:hover {
       background-color: #01257f62;
       transition: all 0.3s ease-in-out;
-      color:whitesmoke;
+      color: whitesmoke;
 }
 
 @media only screen and (min-width: 480px){
-
+      main {
+            width: 480px;
+            margin: auto;
+      }
+      
     .menus-container {
          width: 480px;
     }
+}
+
+@media only screen and (min-width: 700px){
+      
 }
 
 @media only screen and (min-width: 768px){
@@ -466,6 +465,13 @@ nav {
      display: none;
 }
 
+.nav-list:hover {
+      transition: all 3s ease-in-out;
+      letter-spacing: 3px;
+      margin: 1em;
+      background-color: white;
+}
+
 footer {
      flex-direction: row
 }
@@ -478,6 +484,8 @@ footer {
       position: relative;
       top: -100px;
       gap: 2em;
+      width: 800px;
+      margin: auto;
  }
  
 .welcome-container {
@@ -535,15 +543,15 @@ footer {
 }
 
 .specials {
-      width: 1000px;
-      margin: auto;
+       width: 1000px;
+       margin: auto;
 }
 
 .contact-container {
-      flex-direction: row;
-      gap: 0;
-      margin: auto;
-      margin: 1em;
+       flex-direction: row;
+       gap: 0;
+       margin: auto;
+       margin: 1em;
 }
 
 .social-media-container {
@@ -575,6 +583,9 @@ p {
 }
 
 @media only screen and (min-width: 1200px){
+main {
+      width: 100%;
+}
 
 .menus-container {
      width: 1200px;
@@ -589,16 +600,10 @@ h1 {
      text-align: center;
 }
 
-.menu-main {
-      width: 1000px;
-      margin: auto;
-}
-
-
-
 }
 
 @media only screen and (min-width: 1500px){
+
 h1 {
          text-align: center;
 }
