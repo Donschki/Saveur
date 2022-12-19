@@ -1,7 +1,7 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100%;
-  background-position: bottom;
+  background-image: url("/Photos/background1.jpg");
+  background-size: 100% 30em;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -585,11 +585,11 @@ svg:hover {
     top: -200px;
     width: 90%;
   }
-  main div {
+  div {
     width: 90%;
     margin: auto;
   }
-  main .lunchdinner-items-2 {
+  .lunchdinner-items-2 {
     display: none;
   }
   .home-top-background-image {
@@ -635,7 +635,7 @@ svg:hover {
 }
 @media only screen and (min-width: 1200px) {
   main {
-    width: 70%;
+    margin: auto;
   }
   .lunchdinner-items-2 {
     display: visible;

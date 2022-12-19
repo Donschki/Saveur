@@ -542,6 +542,7 @@ footer {
 main{ 
       top: -200px;
       width: 90%;
+}
 
 div {
       width: 90%;
@@ -550,7 +551,7 @@ div {
 
 .lunchdinner-items-2{
       display: none;
-}}
+}
 
 .home-top-background-image {
       height: 30em;
@@ -605,9 +606,10 @@ p {
 }}
 }
 
+
 @media only screen and (min-width: 1200px){
 main {
-      width: 70%;
+      margin: auto;
 }
 
 .lunchdinner-items-2{
