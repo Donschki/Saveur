@@ -107,7 +107,6 @@ main {
       flex-direction: column;
       top: -60px;
       position: relative;
-      padding: 0 1em;
 }
 
 h1 { //SAVEUR LOGO
@@ -247,13 +246,14 @@ hr {
 
 .specials-1-background, .specials-2-background {
        width: 50%;
+       height: 100%;
+       margin: auto;
 }
 
 .specials {
         height: 100%;
         display: flex;
         flex-direction: column;
-        margin: 10px;
 
       h2 {
         font-size: 1.1em;
@@ -334,8 +334,6 @@ label {
 }
 
 
-
-
 //                     SOCIAL MEDIA
 
 
@@ -396,8 +394,6 @@ svg:hover {
        fill: #01257F;
        background-color: whitesmoke;
 }
-
-
 
 
 
