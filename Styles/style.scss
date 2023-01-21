@@ -289,6 +289,12 @@ hr {
 
 .thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
         padding: 1em;
+       width: 100%;
+     margin: auto;
+
+     p {
+      text-align: center;
+}
 }
 
 
@@ -514,9 +520,7 @@ footer {
 
 .thank-you-slideshow {
 
-     p {
-            text-align: center;
-     }
+  
 }
 
 .social-media-container {
@@ -616,10 +620,6 @@ main {
      width: 1200px;
 }
 
-.thank-you-slideshow {
-     width: 800px;
-     margin: auto;
-}
 
 h1 {
      text-align: center;
