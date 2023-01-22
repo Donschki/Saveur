@@ -646,7 +646,7 @@ svg:hover {
     display: visible;
   }
   .menus {
-    margin: auto 10px;
+    margin: 20px 10px;
   }
   h1 {
     text-align: center;
@@ -655,6 +655,9 @@ svg:hover {
 @media only screen and (min-width: 1500px) {
   main {
     width: 1500px;
+  }
+  .menus {
+    height: 35em;
   }
   h1 {
     text-align: center;
