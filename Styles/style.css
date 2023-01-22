@@ -500,6 +500,11 @@ svg:hover {
     width: 500px;
   }
 }
+@media only screen and (min-width: 700px) {
+  .menus-container hr {
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) {
   .home-top-background-image {
     height: 20em;

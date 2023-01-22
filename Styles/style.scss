@@ -439,6 +439,10 @@ svg:hover {
 
 @media only screen and (min-width: 700px){
 
+.menus-container{
+       hr {
+             display: none;
+}}
 }
 
 @media only screen and (min-width: 768px){
