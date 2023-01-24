@@ -115,7 +115,6 @@ header {
   flex-direction: row;
   background-color: var(--background-color);
   color: var(--blue);
-  padding: 10px;
 }
 
 nav {
@@ -227,6 +226,8 @@ h1 {
   font-family: "Abril Fatface", cursive;
   letter-spacing: 2px;
   font-weight: 100;
+  text-align: center;
+  padding: 5px 0;
 }
 
 h2 {
@@ -510,6 +511,7 @@ svg:hover {
 }
 #mains {
   height: 100%;
+  gap: 1em;
 }
 
 @media only screen and (min-width: 768px) {

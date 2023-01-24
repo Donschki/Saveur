@@ -20,7 +20,6 @@ html {
 header {
      display: flex;
      @include header;
-     padding: 10px
 }
 
 nav {
@@ -117,6 +116,8 @@ h1 { //SAVEUR LOGO
        font-family: 'Abril Fatface', cursive;
        letter-spacing: 2px;
        font-weight: 100;
+       text-align: center;
+       padding: 5px 0;
 }
 
 h2 { //ALL SUB HEADINGS
@@ -453,6 +454,7 @@ svg:hover {
 
 #mains {
       height: 100%;
+      gap: 1em;
 }
 
 @media only screen and (min-width: 768px){
