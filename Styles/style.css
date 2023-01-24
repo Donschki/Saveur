@@ -509,11 +509,6 @@ svg:hover {
     display: none;
   }
 }
-#mains {
-  height: 100%;
-  gap: 1em;
-}
-
 @media only screen and (min-width: 768px) {
   .home-top-background-image {
     height: 20em;
