@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
+  background-image: url("/Photos/background1.jpg");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground1.jpg");
+  background-image: url("/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: contain;
@@ -15,7 +15,7 @@
 }
 
 .lunch-dinner-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground2.jpg");
+  background-image: url("/Photos/menuBackground2.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -23,7 +23,7 @@
 }
 
 .drinks-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground3.jpg");
+  background-image: url("/Photos/menuBackground3.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -31,7 +31,7 @@
 }
 
 .specials-1-background {
-  background-image: url("/Saveur/Photos/specials-1.jpg");
+  background-image: url("/Photos/specials-1.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-position: center;
@@ -39,14 +39,14 @@
 }
 
 .specials-2-background {
-  background-image: url("/Saveur/Photos/specials-2.jpg");
+  background-image: url("/Photos/specials-2.jpg");
   background-size: 100% 100%;
   background-attachment: cover;
   background-repeat: no-repeat;
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Photos/seafood-background.jpg");
+  background-image: url("/Photos/seafood-background.jpg");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 }
 
 .breakfast-items {
-  background-image: url("/Saveur/Photos/breakfast-menu.jpg");
+  background-image: url("/Photos/breakfast-menu.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 }
 
 .lunchdinner-items-1 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-1.jpg");
+  background-image: url("/Photos/lunchdinner-menu-1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 }
 
 .lunchdinner-items-2 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-2.jpg");
+  background-image: url("/Photos/lunchdinner-menu-2.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@
 }
 
 .drinks-items {
-  background-image: url("/Saveur/Photos/drinks-menu.jpg");
+  background-image: url("/Photos/drinks-menu.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -282,7 +282,7 @@ hr {
 .menus {
   overflow: hidden;
   margin: 10px;
-  height: 60vh;
+  height: 30em;
 }
 
 .overlay {
@@ -570,6 +570,7 @@ svg:hover {
     width: 100%;
     flex-direction: row;
     gap: 0;
+    margin: auto;
   }
   .menus-container hr {
     display: none;
@@ -610,6 +611,7 @@ svg:hover {
   .specials {
     margin: auto;
     height: 50em;
+    width: 80%;
   }
   .contact-container {
     flex-direction: row;

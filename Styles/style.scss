@@ -177,7 +177,7 @@ hr {
 .menus {
        overflow: hidden;
        margin: 10px ;
-       height: 60vh;
+       height: 30em;
 }
 
 .overlay {
@@ -513,6 +513,7 @@ footer {
       width: 100%;
       flex-direction: row;
       gap: 0;
+      margin: auto;
 
       hr {
             display: none;
@@ -569,6 +570,7 @@ main {
 .specials {
        margin: auto;
        height: 50em;
+       width: 80%;
 }
 
 .contact-container {
