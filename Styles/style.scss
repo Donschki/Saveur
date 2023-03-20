@@ -110,7 +110,7 @@ main {
 
 h1 { //SAVEUR LOGO
        color: white;
-       width: 50%;
+       width:30%;
        z-index: 1;
        text-transform: uppercase;
        font-family: 'Abril Fatface', cursive;
@@ -118,6 +118,11 @@ h1 { //SAVEUR LOGO
        font-weight: 100;
        text-align: center;
        padding: 5px 0;
+
+       img{
+            margin: auto;
+            height: 100%;
+       }
 }
 
 h2 { //ALL SUB HEADINGS
@@ -252,6 +257,9 @@ hr {
        width: 50%;
        height: 100%;
        margin: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
 }
 
 .specials {
@@ -382,14 +390,22 @@ label {
         span {
             width: 100%;
         }
-}
 
-svg {
-       width: 2.5em;
-       transition: all 0.3s ease-in-out;
-       -webkit-transition: all 0.3s ease-in-out;
-       fill: whitesmoke;
-       border-radius: 50%;
+        svg {
+            width: 2.5em;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            fill: whitesmoke;
+            border-radius: 50%;
+      }
+      
+      svg:hover {
+             -webkit-transition: all 0.3s ease-in-out;
+             transition: all 0.3s ease-in-out;
+             border-radius: 5px;
+             fill: #01257F;
+             background-color: whitesmoke;
+      }
 }
 
 path {
@@ -397,12 +413,8 @@ path {
 
 }
 
-svg:hover {
-       -webkit-transition: all 0.3s ease-in-out;
-       transition: all 0.3s ease-in-out;
-       border-radius: 5px;
-       fill: #01257F;
-       background-color: whitesmoke;
+svg {//        SAVEUR LOGO SVG SIZE
+      width: 5em;
 }
 
 
@@ -526,10 +538,6 @@ footer {
       margin: auto 5px;
 }
 
-.specials {
-       height: 40em;
-}
-
 .social-media-container {
       width: 60%;
       margin: auto;
@@ -548,7 +556,6 @@ footer {
 main { 
        width: 90%;
 }
-
 
 .home-top-background-image {
       height: 30em;
@@ -569,8 +576,17 @@ main {
 
 .specials {
        margin: auto;
-       height: 50em;
-       width: 80%;
+       width: 50%;
+     
+
+       h2 {
+            width: 30em;
+            font-size: 1.5em;
+            
+       }
+       p {
+            width: 30em;
+      }
 }
 
 .contact-container {
@@ -600,13 +616,7 @@ form {
        display: flex;
        flex-direction: column;
        justify-content: space-around;
-}
-
-.specials {
-p {
-      width: 20em;
 }}
-}
 
 @media only screen and (min-width: 1200px){
 
