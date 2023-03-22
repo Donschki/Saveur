@@ -13,6 +13,11 @@ html {
       height: 100%;
 }
 
+body {
+      background-color: whitesmoke;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
 
 //                  HEADER
 
@@ -61,8 +66,7 @@ a {
 }
 
 .nav-item-extended {
-      transition: all 0.3s ease-in-out;
-
+       transition: all 0.3s ease-in-out;
 }
 
 .nav-item-extended a:hover {
@@ -90,9 +94,7 @@ a {
        height: 100vh;
 }
 
-body {
-      background-color: whitesmoke;
-}
+
 
 //                  HOME PAGE 
 
