@@ -226,7 +226,6 @@ p {
   padding: 1em;
   line-height: 1.5;
   letter-spacing: 1px;
-  word-spacing: 3px;
   color: var(--font-color);
 }
 
