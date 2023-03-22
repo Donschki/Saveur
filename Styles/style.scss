@@ -54,15 +54,6 @@ a {
 
 .nav-list-extended {
        display: none;
-
-       a {
-            text-decoration: none;
-            color: whitesmoke;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
 }
 
 .nav-item-extended {
@@ -130,7 +121,6 @@ h1 { //SAVEUR LOGO
 h2 { //ALL SUB HEADINGS
        text-align: center;
        text-transform: uppercase;
-       font-family: 'Abril Fatface', cursive;
        letter-spacing: 2px;
        font-weight: 100;
        color:var(--font-color)
@@ -290,11 +280,11 @@ hr {
 }
 
 .specials-info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
 }
 
 
@@ -554,7 +544,17 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
+.nav-list-extended {
 
+       a {
+            text-decoration: none;
+            color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+}
 main { 
        width: 90%;
 }

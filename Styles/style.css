@@ -147,14 +147,6 @@ a {
 .nav-list-extended {
   display: none;
 }
-.nav-list-extended a {
-  text-decoration: none;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 
 .nav-item-extended {
   transition: all 0.3s ease-in-out;
@@ -223,7 +215,6 @@ h1 img {
 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Abril Fatface", cursive;
   letter-spacing: 2px;
   font-weight: 100;
   color: var(--font-color);
@@ -545,7 +536,6 @@ svg {
     align-items: center;
     color: white;
     font-size: 1.1em;
-    font-weight: 1000;
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -584,6 +574,14 @@ svg {
   }
 }
 @media only screen and (min-width: 1000px) {
+  .nav-list-extended a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
   main {
     width: 90%;
   }
