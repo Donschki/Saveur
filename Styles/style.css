@@ -499,6 +499,12 @@ svg {
   .menus-container hr {
     display: none;
   }
+  main {
+    padding: 0 3em;
+  }
+  .items {
+    height: 80em;
+  }
 }
 @media only screen and (min-width: 768px) {
   .home-top-background-image {
@@ -596,11 +602,11 @@ svg {
     align-items: center;
     height: 100%;
   }
-  main {
-    width: 90%;
-  }
   .home-top-background-image {
     height: 30em;
+  }
+  #mains {
+    padding: 0 5em;
   }
   .menu-top-background-image {
     height: 30em;
@@ -637,8 +643,9 @@ svg {
   }
 }
 @media only screen and (min-width: 1200px) {
-  main {
+  #mains {
     margin: auto;
+    padding: 0 10em;
   }
   .menus {
     margin: 20px 10px;

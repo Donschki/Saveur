@@ -449,7 +449,13 @@ svg {//        SAVEUR LOGO SVG SIZE
        hr {
              display: none;
 }}
+main {
+      padding: 0 3em;
+}
 
+.items {
+      height: 80em;
+}
 }
 
 @media only screen and (min-width: 768px){
@@ -566,12 +572,13 @@ footer {
             height: 100%;
         }
 }
-main { 
-       width: 90%;
-}
 
 .home-top-background-image {
       height: 30em;
+}
+
+#mains {
+      padding: 0 5em;
 }
 
 .menu-top-background-image {
@@ -584,10 +591,7 @@ main {
 
 .welcome-container {
       width: 800px;
-
 }
-
-
 
 .contact-container {
        flex-direction: row;
@@ -621,8 +625,9 @@ form {
 
 @media only screen and (min-width: 1200px){
 
-main {
+#mains {
        margin: auto;
+       padding: 0 10em;
 }
 
 
