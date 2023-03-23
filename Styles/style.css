@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
+  background-image: url("/Photos/background1.png");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground1.jpg");
+  background-image: url("/Photos/menuBackground1.png");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: contain;
@@ -15,7 +15,7 @@
 }
 
 .lunch-dinner-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground2.jpg");
+  background-image: url("/Photos/menuBackground2.png");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -23,7 +23,7 @@
 }
 
 .drinks-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground3.jpg");
+  background-image: url("/Photos/menuBackground3.png");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -31,7 +31,7 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Photos/seafood-background.jpg");
+  background-image: url("/Photos/seafood-background.png");
   background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 }
 
 .breakfast-items {
-  background-image: url("/Saveur/Photos/breakfast-menu.jpg");
+  background-image: url("/Photos/breakfast-menu.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 .lunchdinner-items-1 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-1.jpg");
+  background-image: url("/Photos/lunchdinner-menu-1.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 }
 
 .lunchdinner-items-2 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-2.jpg");
+  background-image: url("/Photos/lunchdinner-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -63,7 +63,15 @@
 }
 
 .drinks-items {
-  background-image: url("/Saveur/Photos/drinks-menu.jpg");
+  background-image: url("/Photos/drinks-menu.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: contain;
+}
+
+.drinks-items-2 {
+  background-image: url("/Photos/drinks-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -254,7 +262,7 @@ hr {
   flex-direction: column;
   gap: 2em;
   margin: auto;
-  width: 100%;
+  width: 80%;
   background-color: whitesmoke;
 }
 
@@ -323,7 +331,6 @@ hr {
 .specials {
   display: flex;
   flex-direction: column;
-  height: 30em;
 }
 .specials h2 {
   font-size: 1.1em;
@@ -486,7 +493,6 @@ svg {
 @media only screen and (min-width: 500px) {
   main {
     margin: auto;
-    width: 500px;
   }
 }
 @media only screen and (min-width: 700px) {
@@ -538,11 +544,9 @@ svg {
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  main {
+  #indexMain {
     position: relative;
     top: -100px;
-    gap: 2em;
-    width: 80%;
     margin: auto;
   }
   .welcome-container {
@@ -562,6 +566,17 @@ svg {
     width: 100%;
     height: 30em;
     margin: auto 5px;
+  }
+  .specials {
+    margin: auto;
+    width: 50%;
+  }
+  .specials h2 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .specials p {
+    width: 30em;
   }
   .social-media-container {
     width: 60%;
@@ -595,17 +610,6 @@ svg {
   }
   .welcome-container {
     width: 800px;
-  }
-  .specials {
-    margin: auto;
-    width: 50%;
-  }
-  .specials h2 {
-    width: 30em;
-    font-size: 1.5em;
-  }
-  .specials p {
-    width: 30em;
   }
   .contact-container {
     flex-direction: row;

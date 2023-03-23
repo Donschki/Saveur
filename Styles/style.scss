@@ -166,7 +166,7 @@ hr {
        
        gap: 2em;
        margin: auto;
-       width: 100%;
+       width: 80%;
        background-color: whitesmoke;
 }
 
@@ -256,7 +256,6 @@ hr {
 .specials {
         display: flex;
         flex-direction: column;
-        height: 30em;
 
       h2 {
         font-size: 1.1em;
@@ -441,7 +440,6 @@ svg {//        SAVEUR LOGO SVG SIZE
 @media only screen and (min-width: 500px){
       main {
             margin: auto;
-            width: 500px;
       }
 }
 
@@ -451,6 +449,7 @@ svg {//        SAVEUR LOGO SVG SIZE
        hr {
              display: none;
 }}
+
 }
 
 @media only screen and (min-width: 768px){
@@ -499,11 +498,9 @@ footer {
      @include nav-list-extended;
  }
 
- main {
+ #indexMain {
        position: relative;
        top: -100px;
-       gap: 2em;
-       width: 80%;
        margin: auto;
  }
 
@@ -527,6 +524,21 @@ footer {
       width: 100%;
       height: 30em;
       margin: auto 5px;
+}
+
+.specials {
+       margin: auto;
+       width: 50%;
+     
+
+       h2 {
+            width: 100%;
+            font-size: 1.5em;
+            
+       }
+       p {
+            width: 30em;
+      }
 }
 
 .social-media-container {
@@ -575,20 +587,7 @@ main {
 
 }
 
-.specials {
-       margin: auto;
-       width: 50%;
-     
 
-       h2 {
-            width: 30em;
-            font-size: 1.5em;
-            
-       }
-       p {
-            width: 30em;
-      }
-}
 
 .contact-container {
        flex-direction: row;
@@ -618,6 +617,7 @@ form {
        flex-direction: column;
        justify-content: space-around;
 }}
+
 
 @media only screen and (min-width: 1200px){
 
