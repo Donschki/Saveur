@@ -39,7 +39,7 @@
 }
 
 .breakfast-items {
-  background-image: url("/Saveur/Photos/breakfast-menu.jpg");
+  background-image: url("/Saveur/Photos/breakfast-menu.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 }
 
 .lunchdinner-items-1 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-1.jpg");
+  background-image: url("/Saveur/Photos/lunchdinner-menu-1.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 }
 
 .lunchdinner-items-2 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-2.jpg");
+  background-image: url("/Saveur/Photos/lunchdinner-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -63,7 +63,7 @@
 }
 
 .drinks-items {
-  background-image: url("/Saveur/Photos/drinks-menu.jpg");
+  background-image: url("/Saveur/Photos/drinks-menu.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
 }
 
 .drinks-items-2 {
-  background-image: url("/Saveur/Photos/drinks-menu-2.jpg");
+  background-image: url("/Saveur/Photos/drinks-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
