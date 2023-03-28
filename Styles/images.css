@@ -31,8 +31,32 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Photos/seafood-background.jpg");
-  background-size: 100% 30em;
+  background-image: url("/Photos/mains-background.jpeg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.breakfast-top-background-image {
+  background-image: url("/Photos/breakfast-background.jpeg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.drinks-top-background-image {
+  background-image: url("/Photos/drinks-background.jpg");
+  background-size: 100% 60em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mains-top-background-image {
+  background-image: url("/Photos/mains-background.jpeg");
+  background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;

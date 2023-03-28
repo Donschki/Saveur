@@ -14,8 +14,9 @@ html {
 }
 
 body {
-      background-color: whitesmoke;
-      font-family: Arial, Helvetica, sans-serif;
+       background-color: whitesmoke;
+       font-family: Arial, Helvetica, sans-serif;
+       
 }
 
 
@@ -156,8 +157,8 @@ hr {
 
 
 
-.menu-top-background-image {
-       height: 15em;
+#top-background-images {
+      height: 25em;
 }
 
 .menus-container { //CONTAINS THE MENUS
@@ -255,10 +256,11 @@ hr {
 .specials {
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        gap: 1em;
 
       h2 {
         font-size: 1.1em;
-        padding: 5px;
       }
 }
 
@@ -284,19 +286,6 @@ hr {
        width: 50%;
 }
 
-
-//                     THANK YOU
-
-
-.thank-you-slideshow { //"THANK YOU" SLIDESHOW CONTAINER
-       padding: 1em;
-       width: 100%;
-       margin: auto;
-
-       p {
-       text-align: center;
-}
-}
 
 
 //                     FOOTER
@@ -465,6 +454,15 @@ main {
 .menu-top-background-image {
       height: 20em;
 }
+.breakfast-top-background-image {
+      height: 20em;
+}
+.mains-top-background-image {
+      height: 20em;
+}
+.drinks-top-background-image {
+      height: 20em;
+}
 
 hr {
       width: 60%;
@@ -535,9 +533,7 @@ footer {
 }
 
 .specials {
-       margin: auto;
-       width: 50%;
-     
+       padding: 0 10em;
 
        h2 {
             width: 100%;
@@ -637,6 +633,7 @@ form {
 .menus {
       margin: 20px 10px;
 }
+
 
 
 h1 {
