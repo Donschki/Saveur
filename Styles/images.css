@@ -102,7 +102,7 @@
   background-attachment: contain;
 }
 
-.specials-1-background {
+.loadshedding-background {
   background-image: url("/Photos/Loadshedding-image.jpeg");
   background-size: 100% 100%;
   background-position: top;
@@ -113,7 +113,7 @@
 .specials-2-background {
   background-image: url("/Photos/redhill-image.jpeg");
   background-size: 100% 100%;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: contain;
 }/*# sourceMappingURL=images.css.map */

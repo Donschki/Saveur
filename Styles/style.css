@@ -1,5 +1,5 @@
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
+  background-image: url("/Photos/background1.jpg");
   background-size: 100% 25em;
   background-position: top;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 }
 
 .breakfast-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground1.jpg");
+  background-image: url("/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
   background-position: top;
   background-attachment: contain;
@@ -15,7 +15,7 @@
 }
 
 .lunch-dinner-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground2.jpg");
+  background-image: url("/Photos/menuBackground2.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -23,7 +23,7 @@
 }
 
 .drinks-menu .overlay {
-  background-image: url("/Saveur/Photos/menuBackground3.jpg");
+  background-image: url("/Photos/menuBackground3.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: contain;
@@ -31,56 +31,39 @@
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% ;
+  background-image: url("/Photos/mains-background.jpeg");
+  background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
-  background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% ;
+  background-image: url("/Photos/breakfast-background.jpeg");
+  background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
-  background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 100%;
+  background-image: url("/Photos/drinks-background.jpg");
+  background-size: 100% 60em;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .mains-top-background-image {
-  background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% ;
+  background-image: url("/Photos/mains-background.jpeg");
+  background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.specials-1-background {
-  background-image: url("/Saveur/Photos/Loadshedding-image.jpeg");
-  background-size: 100% 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: contain;
-}
-
-.specials-2-background {
-  background-image: url("/Saveur/Photos/redhill-image.jpeg");
-  background-size: 100% 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: contain;
-}
-
-
 .breakfast-items {
-  background-image: url("/Saveur/Photos/breakfast-menu.png");
+  background-image: url("/Photos/breakfast-menu.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -88,7 +71,7 @@
 }
 
 .lunchdinner-items-1 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-1.png");
+  background-image: url("/Photos/lunchdinner-menu-1.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -96,7 +79,7 @@
 }
 
 .lunchdinner-items-2 {
-  background-image: url("/Saveur/Photos/lunchdinner-menu-2.png");
+  background-image: url("/Photos/lunchdinner-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -104,7 +87,7 @@
 }
 
 .drinks-items {
-  background-image: url("/Saveur/Photos/drinks-menu.png");
+  background-image: url("/Photos/drinks-menu.png");
   background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -112,9 +95,25 @@
 }
 
 .drinks-items-2 {
-  background-image: url("/Saveur/Photos/drinks-menu-2.png");
+  background-image: url("/Photos/drinks-menu-2.png");
   background-size: 100% 100%;
   background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: contain;
+}
+
+.loadshedding-background {
+  background-image: url("/Photos/Loadshedding-image.jpeg");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: contain;
+}
+
+.specials-2-background {
+  background-image: url("/Photos/redhill-image.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: contain;
 }
@@ -238,11 +237,10 @@ a {
   height: 15em;
 }
 
-main {
+#indexMain {
   display: flex;
   gap: 3em;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 h1 {
@@ -254,7 +252,6 @@ h1 {
   letter-spacing: 2px;
   font-weight: 100;
   text-align: center;
-  padding: 5px 0;
 }
 h1 img {
   margin: auto;
@@ -267,12 +264,13 @@ h2 {
   letter-spacing: 2px;
   font-weight: 100;
   color: var(--font-color);
+  font-size: 1.1em;
 }
 
 p {
-  font-size: 1em;
-  text-align: center;
-  padding: 1em;
+  font-size: 0.8;
+  text-align: left;
+  padding: 0.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   color: var(--font-color);
@@ -360,36 +358,29 @@ hr {
   padding: 10px;
 }
 
-.specials-1-background, .specials-2-background {
-  width: 50%;
-  height: 100%;
-  margin: auto;
+.loadshedding {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+}
+
+.loadshedding-background, .specials-2-background {
+  width: 50%;
+  height: 50vh;
 }
 
 .specials {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  gap: 1em;
+  gap: 3em;
 }
 .specials h2 {
   font-size: 1.1em;
 }
 
-.specials-1, .specials-2 {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-.specials-1 p, .specials-2 p {
-  text-align: center;
-}
-
 .specials-2 {
+  display: flex;
   flex-direction: row-reverse;
+  gap: 0.5em;
 }
 
 .specials-info {
@@ -619,14 +610,11 @@ svg {
     margin: auto 5px;
   }
   .specials {
-    padding: 0 10em;
+    padding: 0 5em;
+    width: 100%;
   }
   .specials h2 {
     width: 100%;
-    font-size: 1.5em;
-  }
-  .specials p {
-    width: 30em;
   }
   .social-media-container {
     width: 60%;
@@ -694,6 +682,10 @@ svg {
   }
   .menus {
     margin: 20px 10px;
+  }
+  .specials {
+    width: 75em;
+    margin: auto;
   }
   h1 {
     text-align: center;

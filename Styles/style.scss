@@ -94,11 +94,10 @@ a {
       height: 15em;
 }
 
-main {
+#indexMain { 
       display: flex;
       gap: 3em;
       flex-direction: column;
-      justify-content: space-evenly;
 }
 
 
@@ -111,9 +110,8 @@ h1 { //SAVEUR LOGO
        letter-spacing: 2px;
        font-weight: 100;
        text-align: center;
-       padding: 5px 0;
 
-       img{
+       img {
             margin: auto;
             height: 100%;
        }
@@ -124,13 +122,14 @@ h2 { //ALL SUB HEADINGS
        text-transform: uppercase;
        letter-spacing: 2px;
        font-weight: 100;
-       color:var(--font-color)
+       color:var(--font-color);
+       font-size: 1.1em;
 }
 
 p { //ALL PARAGRAPHS
-       font-size: 1em;
-       text-align: center;
-       padding: 1em;
+       font-size: 0.8;
+       text-align: left;
+       padding: 0.5em;
        line-height: 1.5;
        letter-spacing: 1px;
        color: var(--font-color)
@@ -241,41 +240,32 @@ hr {
 }
 
 
-//                     SPECIALS
+//                     LOADSHEDDING & REDHILL
  
+.loadshedding {
+ display: flex;
+ flex-direction: row;
+}
 
-.specials-1-background, .specials-2-background {
+.loadshedding-background, .specials-2-background {
        width: 50%;
-       height: 100%;
-       margin: auto;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+       height: 50vh;
 }
 
 .specials {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        gap: 1em;
+ display: flex;
+ flex-direction: column;
+ gap: 3em;
 
-      h2 {
+ h2 {
         font-size: 1.1em;
-      }
-}
-
-.specials-1, .specials-2 {
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-
-        p {
-            text-align: center;
-       }
+ }
 }
 
 .specials-2 {
-        flex-direction: row-reverse;
+ display: flex;
+ flex-direction: row-reverse;
+ gap: 0.5em;
 }
 
 .specials-info {
@@ -415,7 +405,6 @@ svg {//        SAVEUR LOGO SVG SIZE
       background-color: whitesmoke;
       border: none;
       transition: all 0.3s ease-in-out;
-
 }
 
 #submit-button:hover {
@@ -533,16 +522,12 @@ footer {
 }
 
 .specials {
-       padding: 0 10em;
+       padding: 0 5em;
+       width: 100%;
 
        h2 {
-            width: 100%;
-            font-size: 1.5em;
-            
+       width: 100%;
        }
-       p {
-            width: 30em;
-      }
 }
 
 .social-media-container {
@@ -629,12 +614,14 @@ form {
        padding: 0 10em;
 }
 
-
 .menus {
       margin: 20px 10px;
 }
 
-
+.specials {
+      width: 75em;
+      margin: auto;
+}
 
 h1 {
      text-align: center;
