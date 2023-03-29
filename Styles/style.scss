@@ -248,8 +248,8 @@ hr {
 }
 
 .loadshedding-background, .specials-2-background {
-       width: 50%;
-       height: 50vh;
+ width: 50%;
+ height: 60vh;
 }
 
 .specials {
@@ -258,14 +258,14 @@ hr {
  gap: 3em;
 
  h2 {
-        font-size: 1.1em;
+       font-size: 1.1em;
  }
 }
 
 .specials-2 {
  display: flex;
  flex-direction: row-reverse;
- gap: 0.5em;
+ gap: 0.1em;
 }
 
 .specials-info {
