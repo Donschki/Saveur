@@ -269,7 +269,7 @@ h2 {
 
 p {
   font-size: 0.8;
-  text-align: left;
+  text-align: center;
   padding: 0.5em;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -640,9 +640,6 @@ svg {
   #mains {
     padding: 0 5em;
     height: 100%;
-  }
-  p {
-    text-align: center;
   }
   .menu-top-background-image {
     height: 30em;
