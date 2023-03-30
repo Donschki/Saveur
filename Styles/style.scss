@@ -244,7 +244,6 @@ hr {
 .loadshedding {
  display: flex;
  flex-direction: column;
- gap: 2.5em;
  height: 25em;
 
 
@@ -253,12 +252,11 @@ hr {
 .specials-2 {
  display: flex;
  flex-direction: column;
- gap: 1em;
  height: 35em;
 }
 
 .loadshedding-background {
- height: 50%;
+ height: 100%;
 } 
 
 .specials-2-background {
@@ -268,7 +266,7 @@ hr {
 .specials {
  display: flex;
  flex-direction: column;
- gap: 3em;
+ gap: 1em;
 
 }
 
@@ -279,6 +277,7 @@ hr {
        align-items: center;
        width: 100%;
        padding: 10px;
+       margin: 2em 0;
 }
 
 
@@ -418,10 +417,12 @@ svg {//        SAVEUR LOGO SVG SIZE
       color: whitesmoke;
 }
 
-@media only screen and (min-width: 500px){
-      main {
-            margin: auto;
-      }
+@media only screen and (min-width: 400px){
+
+main {
+ margin: auto;
+}
+
 }
 
 @media only screen and (min-width: 700px){
