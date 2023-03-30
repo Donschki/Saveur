@@ -361,14 +361,14 @@ hr {
 .loadshedding {
   display: flex;
   flex-direction: column;
-  gap: 3em;
-  height: 30em;
+  gap: 2.5em;
+  height: 35em;
 }
 
 .specials-2 {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 1em;
   height: 35em;
 }
 
@@ -395,6 +395,7 @@ hr {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 10px;
 }
 
 footer {
