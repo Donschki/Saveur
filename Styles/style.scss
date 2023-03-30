@@ -96,8 +96,8 @@ a {
 
 #indexMain { 
       display: flex;
-      gap: 3em;
       flex-direction: column;
+      gap: 2em;
 }
 
 
@@ -244,12 +244,23 @@ hr {
  
 .loadshedding {
  display: flex;
- flex-direction: row;
+ flex-direction: column;
+ gap: 3em;
+
 }
 
-.loadshedding-background, .specials-2-background {
- width: 50%;
- height: 80vh;
+.specials-2 {
+ display: flex;
+ flex-direction: column;
+ gap: 1.5em;
+}
+
+.loadshedding-background {
+ height: 20em;
+} 
+
+.specials-2-background {
+ height: 20em;
 }
 
 .specials {
@@ -262,18 +273,12 @@ hr {
  }
 }
 
-.specials-2 {
- display: flex;
- flex-direction: row-reverse;
- gap: 0.1em;
-}
-
 .specials-info {
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       width: 50%;
+       width: 100%;
 }
 
 

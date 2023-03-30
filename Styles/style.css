@@ -103,7 +103,7 @@
 }
 
 .loadshedding-background {
-  background-image: url("/Saveur/Photos/Loadshedding-image.jpeg");
+  background-image: url("/Saveur/Photos/Loadshedding-image-400x400.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,9 +111,9 @@
 }
 
 .specials-2-background {
-  background-image: url("/Saveur/Photos/Redhill-image.jpeg");
-  background-size: 50% 100%;
-  background-position: left;
+  background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
+  background-size: 100% 100%;
+  background-position: top left;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -239,8 +239,8 @@ a {
 
 #indexMain {
   display: flex;
-  gap: 3em;
   flex-direction: column;
+  gap: 2em;
 }
 
 h1 {
@@ -360,12 +360,22 @@ hr {
 
 .loadshedding {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 3em;
 }
 
-.loadshedding-background, .specials-2-background {
-  width: 50%;
-  height: 80vh;
+.specials-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.loadshedding-background {
+  height: 20em;
+}
+
+.specials-2-background {
+  height: 20em;
 }
 
 .specials {
@@ -377,18 +387,12 @@ hr {
   font-size: 1.1em;
 }
 
-.specials-2 {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 0.1em;
-}
-
 .specials-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 
 footer {
