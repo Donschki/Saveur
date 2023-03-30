@@ -112,7 +112,7 @@
 
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image.jpeg");
-  background-size: 50% 100vh;
+  background-size: 50% 100%;
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -365,7 +365,7 @@ hr {
 
 .loadshedding-background, .specials-2-background {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
 }
 
 .specials {
