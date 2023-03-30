@@ -610,7 +610,6 @@ svg {
     margin: auto 5px;
   }
   .specials {
-    padding: 0 5em;
     width: 100%;
   }
   .specials h2 {
@@ -660,6 +659,9 @@ svg {
     width: 35%;
     margin: auto;
     padding: 0;
+  }
+  .specials {
+    padding: 0 5em;
   }
   form {
     margin: 0;
