@@ -249,7 +249,7 @@ hr {
 
 .loadshedding-background, .specials-2-background {
  width: 50%;
- height: 60vh;
+ height: 100vh;
 }
 
 .specials {
@@ -563,6 +563,9 @@ footer {
 #mains {
       padding: 0 5em;
       height: 100%;
+}
+p {
+      text-align: center;
 }
 
 .menu-top-background-image {
