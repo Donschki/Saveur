@@ -113,7 +113,7 @@
 .specials-2-background {
   background-image: url("/Photos/Redhill-image-400x400.jpg");
   background-size: 100% 100%;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -360,7 +360,7 @@ hr {
 .loadshedding {
   display: flex;
   flex-direction: column;
-  height: 25em;
+  height: 35em;
 }
 
 .specials-2 {
@@ -374,7 +374,7 @@ hr {
 }
 
 .specials-2-background {
-  height: 60%;
+  height: 100%;
 }
 
 .specials {
