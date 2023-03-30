@@ -104,7 +104,8 @@
 
 .loadshedding-background {
   background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
-  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
   background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
