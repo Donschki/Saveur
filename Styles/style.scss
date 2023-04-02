@@ -164,9 +164,9 @@ hr {
        display: flex;
        flex-direction: column;
        
-       gap: 2em;
+       gap: 1em;
        margin: auto;
-       width: 80%;
+       width: 100%;
        background-color: whitesmoke;
 }
 
@@ -244,35 +244,31 @@ hr {
  
 
 
-.loadshedding {
+.loadshedding, .specials-2  {
  display: flex;
  flex-direction: column;
+ padding: 1em;
+ gap: 1em;
 }
-
-.specials-2 {
- display: flex;
- flex-direction: column;
-}
-
-
 
 
 .specials {
  display: flex;
  flex-direction: column;
- gap: 1em;
+ gap: 3em;
 
 }
 
 .specials-info {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
 }
 
 .loadshedding-background, .specials-2-background {
-      height: 50vh
+ height: 50vh;
 }
 
 
