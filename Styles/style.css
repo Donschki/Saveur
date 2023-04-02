@@ -502,17 +502,21 @@ svg {
 @media only screen and (min-width: 400px) {
   main {
     margin: auto;
+    padding: 0 10px;
+  }
+  .menus-container {
+    max-width: 400px;
   }
 }
 @media only screen and (min-width: 700px) {
-  .menus-container hr {
-    display: none;
-  }
-  main {
-    padding: 0 3em;
+  .menus-container {
+    max-width: 400px;
   }
   .items {
     height: 80em;
+  }
+  .specials-2-background {
+    background-image: url("/Photos/Redhill-image-800x800.jpg");
   }
 }
 @media only screen and (min-width: 768px) {
