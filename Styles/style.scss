@@ -99,6 +99,11 @@ a {
       gap: 2em;
 }
 
+#mains {
+      padding: 1em;
+      width: 100%;
+}
+
 
 h1 { //SAVEUR LOGO
        color: white;
@@ -155,14 +160,14 @@ hr {
 
 
 #top-background-images {
-      height: 25em;
+      height: 35em;
 }
 
 .menus-container { //CONTAINS THE MENUS
        display: flex;
        flex-direction: column;
        
-       gap: 1em;
+       gap: 2em;
        margin: auto;
        width: 100%;
        background-color: whitesmoke;
@@ -245,7 +250,6 @@ hr {
 .loadshedding, .specials-2  {
  display: flex;
  flex-direction: column;
- padding: 1em;
  gap: 1em;
 }
 
@@ -253,8 +257,8 @@ hr {
 .specials {
  display: flex;
  flex-direction: column;
- gap: 3em;
-
+ gap: 2em;
+ padding: 0 10px;
 }
 
 .specials-info {
@@ -262,6 +266,7 @@ hr {
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ gap: 1em;
 
 }
 
@@ -409,24 +414,31 @@ svg {//        SAVEUR LOGO SVG SIZE
 
 main {
  margin: auto;
- padding: 0 10px;
 }
 
+}
+
+@media only screen and (min-width: 550px) {
 .menus-container {
- max-width: 400px;
+ max-width: 550px;
+}
 }
 
-}
-
-@media only screen and (min-width: 700px){
-
-.menus-container {
- max-width: 400px;
-}
+@media only screen and (min-width: 600px){
 
 .items {
       height: 80em;
 }
+
+.specials {
+      min-width: 500px;
+}
+
+.loadshedding, .specials {
+      max-width: 600px;
+      margin: auto;
+}
+
 
 .specials-2-background {
  background-image: url("/Photos/Redhill-image-800x800.jpg");
@@ -442,12 +454,15 @@ main {
 .menu-top-background-image {
       height: 20em;
 }
+
 .breakfast-top-background-image {
       height: 20em;
 }
+
 .mains-top-background-image {
       height: 20em;
 }
+
 .drinks-top-background-image {
       height: 20em;
 }
@@ -490,7 +505,7 @@ footer {
 
  #indexMain {
        position: relative;
-       top: -100px;
+       top: -50px;
        margin: auto;
        width: 100%;
        padding: 0;
@@ -499,15 +514,14 @@ footer {
 .welcome-container {
       margin: auto;
       text-align: center;
+      width: 768px;
 }
 
 .menus-container {
-      width: 100%;
+      max-width: 100%;
       flex-direction: row;
       gap: 0;
       margin: auto;
-      padding: 2em;
-      gap: 2em;
 
       hr {
             display: none;
@@ -521,12 +535,35 @@ footer {
 }
 
 .specials {
-       width: 100%;
+      max-width: 100%;
+      width: 100%;
 
        h2 {
        width: 100%;
        }
 }
+
+.specials-info {
+      width: 50%;
+}
+
+.loadshedding {
+      flex-direction: row;
+      max-width: 100%;
+}
+
+.specials-2 {
+      flex-direction: row-reverse;
+}
+
+.loadshedding-background, .specials-2-background {
+      width: 50%;
+      height: 25em;
+
+}
+
+
+
 
 .social-media-container {
       width: 60%;
@@ -556,15 +593,6 @@ body {
             align-items: center;
             height: 100%;
         }
-}
-
-.home-top-background-image {
-      height: 30em;
-}
-
-#mains {
-      padding: 0 5em;
-      height: 100%;
 }
 
 .menu-top-background-image {
@@ -598,6 +626,8 @@ body {
 
 .welcome-container {
       width: 800px;
+       top: -500px;
+      
 }
 
 .contact-container {
@@ -613,14 +643,8 @@ body {
        padding: 0;
 }
 
-
-
 form {
       margin: 0;
-}
-
-.footer {
-      height: 100vh;
 }
 
 .map {
