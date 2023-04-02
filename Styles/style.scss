@@ -9,13 +9,14 @@
 //      border: solid 1px black;
 }
 
-html {
-      height: 100%;
-}
+
 
 body {
        background-color: whitesmoke;
        font-family: Arial, Helvetica, sans-serif;
+       display: flex;
+       flex-direction: column;
+       height: 100vh;
        
 }
 
@@ -241,25 +242,20 @@ hr {
 
 //                     LOADSHEDDING & REDHILL
  
+
+
 .loadshedding {
  display: flex;
  flex-direction: column;
- height: 35em;
 }
 
 .specials-2 {
  display: flex;
  flex-direction: column;
- height: 35em;
 }
 
-.loadshedding-background {
- height: 100%;
-} 
 
-.specials-2-background {
- height: 100%;
-}
+
 
 .specials {
  display: flex;
@@ -273,11 +269,11 @@ hr {
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       width: 100%;
-       padding: 10px;
-       margin: 2em 0;
 }
 
+.loadshedding-background, .specials-2-background {
+      height: 50vh
+}
 
 
 //                     FOOTER
@@ -547,6 +543,10 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
+body {
+      height: 100%;
+}
+
 .nav-list-extended {
 
        a {
@@ -568,13 +568,33 @@ footer {
       height: 100%;
 }
 
-
 .menu-top-background-image {
       height: 30em;
 }
 
 .items {
       height: 100em;
+}
+
+.specials {
+      padding: 0 5em;
+
+}
+
+.loadshedding {
+      flex-direction: row;
+}
+
+.specials-2 {
+      flex-direction: row-reverse;
+}
+
+.loadshedding-info {
+      width: 30%;
+}
+
+.loadshedding-background {
+      width: 50%;
 }
 
 .welcome-container {
@@ -594,10 +614,7 @@ footer {
        padding: 0;
 }
 
-.specials {
-      padding: 0 5em;
 
-}
 
 form {
       margin: 0;
