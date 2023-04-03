@@ -1,17 +1,4 @@
 
-//                    HOME
-
-
-//                          TOP BACKGROUND IMAGE - HOME PAGE
-
-.home-top-background-image {
-         background-image: url("/Saveur/Photos/background1.jpg");
-         background-size: 100% 25em;
-         background-position: top;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-}
-
 //                          BREAKFAST MENU BACKGROUND IMAGE - HOME PAGE
 
 
@@ -51,9 +38,17 @@
 
 //                           TOP BACKGROUND MENU IMAGES 
 
+.home-top-background-image {
+    background-image: url("/Saveur/Photos/background1.jpg");
+    background-size: 100% 25em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .menu-top-background-image {
     background-image: url("/Saveur/Photos/mains-background.jpeg");
-    background-size: 100% 20em;
+    background-size: 100% 25em;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;

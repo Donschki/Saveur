@@ -1,11 +1,3 @@
-.home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100% 25em;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .breakfast-menu .overlay {
   background-image: url("/Saveur/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
@@ -30,9 +22,17 @@
   background-repeat: no-repeat;
 }
 
+.home-top-background-image {
+  background-image: url("/Saveur/Photos/background1.jpg");
+  background-size: 100% 25em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 20em;
+  background-size: 100% 25em;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
