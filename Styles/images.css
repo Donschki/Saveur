@@ -32,23 +32,23 @@
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
-  background-position: top;
+  background-size: 100% 20em;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100%;
-  background-position: top;
+  background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 60em;
+  background-size: 100% 20em;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -56,7 +56,7 @@
 
 .mains-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100%;
+  background-size: 100% 20em;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -72,7 +72,7 @@
 
 .lunchdinner-items-1 {
   background-image: url("/Saveur/Photos/lunchdinner-menu-1.png");
-  background-size: 100% 100%;
+  background-size: 100% 20em;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
@@ -88,7 +88,7 @@
 
 .drinks-items {
   background-image: url("/Saveur/Photos/drinks-menu.png");
-  background-size: 100% 100%;
+  background-size: 100% 20100% em;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
@@ -111,7 +111,7 @@
 
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
-  background-size: 100% 20em;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }/*# sourceMappingURL=images.css.map */

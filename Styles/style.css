@@ -33,22 +33,22 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 100%;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100%;
-  background-position: top;
+  background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 60em;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -56,7 +56,7 @@
 
 .mains-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -105,13 +105,13 @@
 .loadshedding-background {
   background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
   background-position: center;
-  background-size: 100% 20em;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
-  background-size: 100% 20em;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -241,8 +241,15 @@ a {
 }
 
 #mains {
-  padding: 1em;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  gap: 2em;
+}
+#mains hr {
+  display: show;
+  width: 50%;
+  color: #01257F;
 }
 
 h1 {
@@ -294,7 +301,7 @@ hr {
 }
 
 #top-background-images {
-  height: 35em;
+  height: 28em;
 }
 
 .menus-container {
@@ -382,7 +389,7 @@ hr {
 }
 
 .loadshedding-background, .specials-2-background {
-  height: 20em;
+  height: 100%;
 }
 
 footer {
@@ -541,19 +548,19 @@ svg {
 }
 @media only screen and (min-width: 768px) {
   .home-top-background-image {
-    height: 20em;
+    height: 100%;
   }
   .menu-top-background-image {
-    height: 20em;
+    height: 100%;
   }
   .breakfast-top-background-image {
-    height: 20em;
+    height: 100%;
   }
   .mains-top-background-image {
-    height: 20em;
+    height: 100%;
   }
   .drinks-top-background-image {
-    height: 20em;
+    height: 100%;
   }
   hr {
     width: 60%;

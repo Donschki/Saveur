@@ -101,8 +101,16 @@ a {
 }
 
 #mains {
-      padding: 1em;
+      display: flex;
+      flex-direction: column;
       width: 100%;
+      gap: 2em;
+
+      hr {
+            display: show;
+            width: 50%;
+            color: #01257F;
+      }
 }
 
 
@@ -161,7 +169,7 @@ hr {
 
 
 #top-background-images {
-      height: 35em;
+      height: 28em;
 }
 
 .menus-container { //CONTAINS THE MENUS
@@ -450,7 +458,7 @@ main {
 
 
 .specials-2-background {
- background-image: url("/Saveur/Photos/Redhill-image-800x800.jpg");
+ background-image: url("/Photos/Redhill-image-800x800.jpg");
 }
 
 .social-media-container {
