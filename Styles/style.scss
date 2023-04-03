@@ -97,6 +97,7 @@ a {
       display: flex;
       flex-direction: column;
       gap: 2em;
+      align-items: center;
 }
 
 #mains {
@@ -259,6 +260,8 @@ hr {
  flex-direction: column;
  gap: 2em;
  padding: 0 10px;
+ margin-bottom: 2em;
+
 }
 
 .specials-info {
@@ -271,7 +274,7 @@ hr {
 }
 
 .loadshedding-background, .specials-2-background {
- height: 50vh;
+ height: 20em;
 }
 
 
@@ -289,6 +292,10 @@ footer {
         display: flex !important;
         flex-direction: column;
         gap: 2em;
+
+        hr {
+            color: whitesmoke;
+        }
 }
 
 
@@ -300,7 +307,7 @@ form {
        margin: auto;
        display: flex;
        flex-direction: column;
-       gap: 3px;
+       gap: 0.4em;
 }
 
 input {
@@ -310,6 +317,8 @@ input {
 textarea {
        margin: auto;
        width: 100%;
+       padding: 10px;
+       font-size: 1em;
 }
 
 label {
@@ -324,8 +333,8 @@ label {
         display: flex !important;
         flex-direction: column;
         gap: 2em;
-        padding: 10px;
-        width: 100%;
+      padding: 1em 4em;
+
 }
 
 .social-media-icons {
@@ -431,17 +440,23 @@ main {
 }
 
 .specials {
-      min-width: 500px;
+      min-width: 500px; 
+      margin-bottom: auto 2em;
+
+
 }
 
 .loadshedding, .specials {
       max-width: 600px;
-      margin: auto;
 }
 
 
 .specials-2-background {
  background-image: url("/Photos/Redhill-image-800x800.jpg");
+}
+
+.social-media-container {
+      padding: 2em 10em;
 }
 }
 
@@ -562,12 +577,8 @@ footer {
 
 }
 
-
-
-
 .social-media-container {
-      width: 60%;
-      margin: auto;
+      padding: 2em 12em;
 }
 
 .social-media {
@@ -579,9 +590,7 @@ footer {
 }
 
 @media only screen and (min-width: 1000px){
-body {
-      height: 100%;
-}
+
 
 .nav-list-extended {
 
@@ -635,12 +644,17 @@ body {
        gap: 0;
        margin: auto;
        margin: 1em;
+
+       hr {
+            display: none;
+       }
 }
 
 .social-media-container {
        width: 35%;
        margin: auto;
        padding: 0;
+       gap: 0;
 }
 
 form {
@@ -653,7 +667,9 @@ form {
        display: flex;
        flex-direction: column;
        justify-content: space-around;
-}}
+}
+
+}
 
 
 @media only screen and (min-width: 1200px){
