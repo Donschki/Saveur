@@ -433,21 +433,19 @@ main {
 }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
 
 .items {
       height: 80em;
 }
 
 .specials {
-      min-width: 500px; 
-      margin-bottom: auto 2em;
-
-
+ min-width: 500px; 
+ margin-bottom: auto 2em;
 }
 
 .loadshedding, .specials {
-      max-width: 600px;
+ max-width: 600px;
 }
 
 
@@ -456,7 +454,7 @@ main {
 }
 
 .social-media-container {
-      padding: 2em 10em;
+ padding: 2em 10em;
 }
 }
 
