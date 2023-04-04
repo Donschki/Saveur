@@ -156,13 +156,11 @@ nav {
 .nav-list {
   top: 0;
   height: 10em;
-  width: 100%;
   background-color: var(--background-color);
   display: none;
 }
 
 .nav-item {
-  margin: 1em 0;
   font-size: 1.5em;
   font-weight: 500;
   color: whitesmoke;
@@ -170,6 +168,11 @@ nav {
   width: 100%;
   transition: all 1s ease-in-out;
   list-style: none;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
