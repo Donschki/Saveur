@@ -218,7 +218,9 @@ a {
   height: 100vh;
 }
 
-.home-top-background-image {
+.home-top-background-image, 
+.breakfast-top-background-image, 
+.mains-top-background-image {
   height: 15em;
 }
 
