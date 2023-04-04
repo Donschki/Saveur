@@ -169,7 +169,7 @@ hr {
 
 
 #top-background-images {
-      height: 20em;
+      height: 30em;
 }
 
 .menus-container { //CONTAINS THE MENUS
@@ -433,6 +433,10 @@ main {
  margin: auto;
 }
 
+#top-background-images {
+      height: 20em;
+    }
+
 }
 
 @media only screen and (min-width: 550px) {
@@ -468,6 +472,10 @@ main {
 
 @media only screen and (min-width: 768px){
 
+#top-background-images {
+      height: 25em;
+    }
+      
 .home-top-background-image {
       height: 20em;
 }
@@ -526,7 +534,7 @@ footer {
 
  #indexMain {
        position: relative;
-       top: -50px;
+       top: -100px;
        margin: auto;
        width: 100%;
        padding: 0;
