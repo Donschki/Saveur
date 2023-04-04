@@ -38,7 +38,7 @@
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 15em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

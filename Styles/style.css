@@ -25,7 +25,6 @@
 .home-top-background-image {
   background-image: url("/Saveur/Photos/background1.jpg");
   background-size: 100% 25em;
-  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -39,7 +38,7 @@
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% 50%;
+  background-size: 100% 15em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -95,6 +94,7 @@
 
 .loadshedding-background {
   background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
+  background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -102,6 +102,7 @@
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
   background-size: 100% 100%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -218,9 +219,7 @@ a {
   height: 100vh;
 }
 
-.home-top-background-image, 
-.breakfast-top-background-image, 
-.mains-top-background-image {
+.home-top-background-image {
   height: 15em;
 }
 
@@ -534,7 +533,7 @@ svg {
     max-width: 600px;
   }
   .specials-2-background {
-    background-image: url("/Saveur/Photos/Redhill-image-800x800.jpg");
+    background-image: url("/Photos/Redhill-image-800x800.jpg");
   }
   .social-media-container {
     padding: 2em 10em;
