@@ -32,30 +32,28 @@
 
 .menu-top-background-image {
   background-image: url("/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
-  background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Photos/breakfast-background.jpeg");
-  background-size: 100% 30em;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Photos/drinks-background.jpg");
-  background-size: 100% 25em;
-  background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .mains-top-background-image {
   background-image: url("/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -63,7 +61,6 @@
 .breakfast-items {
   background-image: url("/Photos/breakfast-menu.png");
   background-size: 100% 100%;
-  background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
 }
@@ -92,7 +89,6 @@
 .drinks-items-2 {
   background-image: url("/Photos/drinks-menu-2.png");
   background-size: 100% 100%;
-  background-position: top;
   background-repeat: no-repeat;
   background-attachment: contain;
 }
