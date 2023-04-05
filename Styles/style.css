@@ -1,6 +1,7 @@
 .breakfast-menu .overlay {
   background-image: url("/Saveur/Photos/menuBackground1.jpg");
   background-size: 100% 100%;
+  background-position: top;
   background-attachment: contain;
   background-repeat: no-repeat;
 }
@@ -237,10 +238,7 @@ a:hover li {
   position: absolute;
 }
 
-.home-top-background-image,
-.menu-top-background-image,
-.breakfast-top-background-image,
-.drinks-top-background-image {
+.home-top-background-image .menu-top-background-image .breakfast-top-background-image .drinks-top-background-image {
   height: 15em;
 }
 
@@ -554,7 +552,7 @@ svg {
     max-width: 600px;
   }
   .specials-2-background {
-    background-image: url("/Saveur/Photos/Redhill-image-800x800.jpg");
+    background-image: url("/Photos/Redhill-image-800x800.jpg");
   }
   .social-media-container {
     padding: 2em 10em;
