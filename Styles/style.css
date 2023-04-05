@@ -32,7 +32,6 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 25em;
-  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -102,6 +101,7 @@
 
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
+  background-position: center;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
