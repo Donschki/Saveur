@@ -50,13 +50,6 @@
   background-attachment: fixed;
 }
 
-.menuMain-top-background-image {
-  background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .breakfast-items {
   background-image: url("/Saveur/Photos/breakfast-menu.png");
   background-size: 100% 100%;
@@ -601,6 +594,12 @@ svg {
     margin: auto;
     width: 100%;
     padding: 0;
+  }
+  .home-top-background-image,
+  .breakfast-top-background-image,
+  .menu-top-background-image,
+  .drinks-top-background-image {
+    height: 30em;
   }
   .welcome-container {
     margin: auto;
