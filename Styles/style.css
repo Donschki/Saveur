@@ -52,7 +52,7 @@
 
 .mains-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -307,10 +307,6 @@ hr {
   padding: 21px;
   margin: auto;
   background-color: whitesmoke;
-}
-
-#top-background-images {
-  height: 30em;
 }
 
 .menus-container {
