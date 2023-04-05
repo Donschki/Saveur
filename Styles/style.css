@@ -31,21 +31,21 @@
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
