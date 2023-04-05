@@ -32,7 +32,6 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 25em;
-  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -46,13 +45,6 @@
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 25em;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.menuMain-top-background-image {
-  background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;

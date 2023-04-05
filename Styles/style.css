@@ -32,7 +32,6 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 25em;
-  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -243,7 +242,7 @@ a:hover li {
 .breakfast-top-background-image,
 .menu-top-background-image,
 .drinks-top-background-image {
-  height: 15em;
+  height: 20em;
 }
 
 #indexMain {
