@@ -32,6 +32,7 @@
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 25em;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
