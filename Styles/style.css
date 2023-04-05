@@ -23,15 +23,15 @@
 }
 
 .home-top-background-image {
-  background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100% 25em;
+  background-image: url("/Photos/background1.jpg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -50,7 +50,7 @@
   background-attachment: fixed;
 }
 
-.mains-top-background-image {
+.menuMain-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -555,24 +555,6 @@ svg {
   }
 }
 @media only screen and (min-width: 768px) {
-  #top-background-images {
-    height: 25em;
-  }
-  .home-top-background-image {
-    height: 20em;
-  }
-  .menu-top-background-image {
-    height: 20em;
-  }
-  .breakfast-top-background-image {
-    height: 20em;
-  }
-  .menuMain-top-background-image {
-    height: 20em;
-  }
-  .drinks-top-background-image {
-    height: 20em;
-  }
   hr {
     width: 60%;
   }
