@@ -24,13 +24,13 @@
 
 .home-top-background-image {
   background-image: url("/Photos/background1.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .menu-top-background-image {
-  background-image: url("/Saveur/Photos/mains-background.jpeg");
+  background-image: url("/Photos/mains-background.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -238,8 +238,28 @@ a:hover li {
   position: absolute;
 }
 
-.home-top-background-image .menu-top-background-image .breakfast-top-background-image .drinks-top-background-image {
-  height: 15em;
+#top-background-images {
+  height: 25em;
+}
+
+.home-top-background-image {
+  height: 20em;
+}
+
+.menu-top-background-image {
+  height: 20em;
+}
+
+.breakfast-top-background-image {
+  height: 20em;
+}
+
+.menuMain-top-background-image {
+  height: 20em;
+}
+
+.drinks-top-background-image {
+  height: 20em;
 }
 
 #indexMain {
