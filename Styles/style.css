@@ -156,11 +156,10 @@ nav {
 .nav-list {
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--background-color);
   display: none;
   position: absolute;
-  top: 0;
 }
 
 .nav-item {
@@ -169,19 +168,33 @@ nav {
   color: whitesmoke;
   text-align: center;
   width: 100%;
+  height: 100%;
   transition: all 1s ease-in-out;
   list-style: none;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 a {
   text-decoration: none;
   color: whitesmoke;
   text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover li {
+  background-color: whitesmoke;
+  color: #01257F;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-list-extended {
@@ -222,6 +235,7 @@ a {
   flex-direction: column;
   font-size: 5vw;
   height: 100vh;
+  position: absolute;
 }
 
 .home-top-background-image {
@@ -235,13 +249,13 @@ a {
   align-items: center;
 }
 
-#mains {
+#menuMain {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 2em;
 }
-#mains hr {
+#menuMain hr {
   display: show;
   width: 50%;
   color: #01257F;
@@ -538,7 +552,7 @@ svg {
     max-width: 600px;
   }
   .specials-2-background {
-    background-image: url("/Photos/Redhill-image-800x800.jpg");
+    background-image: url("/Saveur/Photos/Redhill-image-800x800.jpg");
   }
   .social-media-container {
     padding: 2em 10em;
@@ -557,7 +571,7 @@ svg {
   .breakfast-top-background-image {
     height: 20em;
   }
-  .mains-top-background-image {
+  .menuMain-top-background-image {
     height: 20em;
   }
   .drinks-top-background-image {
@@ -716,7 +730,7 @@ svg {
   }
 }
 @media only screen and (min-width: 1200px) {
-  #mains {
+  #menuMain {
     margin: auto;
     padding: 0 10em;
   }
