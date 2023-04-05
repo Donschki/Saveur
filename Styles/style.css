@@ -23,14 +23,14 @@
 }
 
 .home-top-background-image {
-  background-image: url("/Photos/background1.jpg");
+  background-image: url("/Saveur/Photos/background1.jpg");
   background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .menu-top-background-image {
-  background-image: url("/Photos/mains-background.jpeg");
+  background-image: url("/Saveur/Photos/mains-background.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -236,10 +236,6 @@ a:hover li {
   font-size: 5vw;
   height: 100vh;
   position: absolute;
-}
-
-#top-background-images {
-  height: 25em;
 }
 
 .home-top-background-image {
