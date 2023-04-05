@@ -52,7 +52,7 @@
 
 .menuMain-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -101,7 +101,6 @@
 
 .specials-2-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
-  background-position: center;
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,6 +236,10 @@ a:hover li {
   font-size: 5vw;
   height: 100vh;
   position: absolute;
+}
+
+#top-background-images {
+  height: 25em;
 }
 
 .home-top-background-image {
