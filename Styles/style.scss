@@ -110,31 +110,12 @@ a:hover li {
 
 //                  HOME PAGE 
 
-
-#top-background-images {
-      height: 25em;
-    }
-
-    .home-top-background-image {
-      height: 20em;
-}
-
-.menu-top-background-image {
-      height: 20em;
-}
-
-.breakfast-top-background-image {
-      height: 20em;
-}
-
-.menuMain-top-background-image {
-      height: 20em;
-}
-
+.home-top-background-image,
+.breakfast-top-background-image,
+.menu-top-background-image,
 .drinks-top-background-image {
       height: 20em;
 }
-   
 
 #indexMain { 
       display: flex;
@@ -143,7 +124,7 @@ a:hover li {
       align-items: center;
 }
 
-#menuMain {
+#mains {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -155,6 +136,8 @@ a:hover li {
             color: #01257F;
       }
 }
+
+
 
 
 h1 { //SAVEUR LOGO
@@ -510,9 +493,6 @@ main {
 
 @media only screen and (min-width: 768px){
 
-   
-
-
 hr {
       width: 60%;
 }
@@ -705,7 +685,7 @@ form {
 
 @media only screen and (min-width: 1200px){
 
-#menuMain {
+#mains {
        margin: auto;
        padding: 0 10em;
 }
