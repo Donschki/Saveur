@@ -606,7 +606,7 @@ svg {
   .mains-top-background-image,
   .drinks-top-background-image {
     height: 25em;
-    background-position: top;
+    background-position: center;
     background-size: 100%;
   }
   .drinks-top-background-image {
