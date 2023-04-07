@@ -113,7 +113,8 @@ a:hover li {
 .home-top-background-image,
 .breakfast-top-background-image,
 .menu-top-background-image,
-.drinks-top-background-image {
+.drinks-top-background-image,
+.mains-top-background-image {
       height: 20em;
 }
 
@@ -336,7 +337,6 @@ form {
        margin: auto;
        display: flex;
        flex-direction: column;
-       gap: 0.4em;
 }
 
 input {
@@ -454,9 +454,6 @@ main {
  margin: auto;
 }
 
-#top-background-images {
-      height: 20em;
-    }
 
 }
 
@@ -538,15 +535,18 @@ footer {
  }
 
  .home-top-background-image,
-.breakfast-top-background-image,
-.menu-top-background-image,
-.drinks-top-background-image {
-      height: 30em;
-}
+ .breakfast-top-background-image,
+ .menu-top-background-image,
+ .mains-top-background-image,
+ .drinks-top-background-image {
+   height: 25em;
+   background-position:  top;
+   background-size: 100%;
+ }
 
-.menu-top-background-image {
-      background-size: 100% 30em;
-}
+ .drinks-top-background-image {
+      background-position: center;
+ }
 
 .welcome-container {
       margin: auto;
@@ -613,7 +613,13 @@ footer {
 
 @media only screen and (min-width: 1000px){
 
-
+.home-top-background-image,
+  .breakfast-top-background-image,
+  .menu-top-background-image,
+  .mains-top-background-image{
+    background-position: top;
+  }
+  
 .nav-list-extended {
 
        a {
@@ -624,10 +630,6 @@ footer {
             align-items: center;
             height: 100%;
         }
-}
-
-.menu-top-background-image {
-      height: 30em;
 }
 
 .items {
@@ -676,7 +678,6 @@ footer {
        width: 35%;
        margin: auto;
        padding: 0;
-       gap: 0;
 }
 
 form {
