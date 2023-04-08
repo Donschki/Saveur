@@ -59,11 +59,10 @@ a {
       text-transform: uppercase;
       height: 100%;
       display: flex;
-      align-items: center;
       justify-content: center;
       list-style: none;
       transition: all 0.3s ease-in-out;
-
+      font-size: 0.9em;
 }
 
 a:hover li {
@@ -138,9 +137,6 @@ a:hover li {
       }
 }
 
-
-
-
 h1 { //SAVEUR LOGO
        color: white;
        width:30%;
@@ -157,28 +153,25 @@ h1 { //SAVEUR LOGO
        }
 }
 
-h2 { //ALL SUB HEADINGS
+h3 { //ALL SUB HEADINGS
        text-align: center;
        text-transform: uppercase;
-       letter-spacing: 2px;
        font-weight: 100;
        color:var(--font-color);
 }
 
 p { //ALL PARAGRAPHS
-       font-size: 0.8;
+       font-size: 12px;
        text-align: center;
-       padding: 0.5em;
        line-height: 1.5;
-       letter-spacing: 1px;
        color: var(--font-color)
 }
 
 hr {
-       width: 50%;
+       width: 60%;
        margin: auto;
-       color: #01257F;
-       opacity: 0.5;
+       border-color: #01257F;
+       opacity: 0.1;
 }
 
 .welcome-container { //"WELCOME" CONTAINER
@@ -188,6 +181,7 @@ hr {
        padding: 21px;
        margin: auto;
        background-color: whitesmoke;
+       gap: 1em;
 } 
 
 
@@ -198,15 +192,13 @@ hr {
        display: flex;
        flex-direction: column;
        
-       gap: 2em;
-       margin: auto;
        width: 100%;
        background-color: whitesmoke;
 }
 
 .menus {
        overflow: hidden;
-       margin: 10px ;
+       margin: 30px ;
        height: 30em;
 }
 
@@ -289,8 +281,8 @@ hr {
  display: flex;
  flex-direction: column;
  gap: 2em;
- padding: 0 10px;
- margin-bottom: 2em;
+ margin: 30px ;
+
 
 }
 
@@ -304,7 +296,8 @@ hr {
 }
 
 .loadshedding-background, .redhill-background {
- height: 20em;
+ height: 25em;
+
 }
 
 .redhill-logo {
@@ -421,7 +414,7 @@ path {
 }
 
 svg {//        SAVEUR LOGO SVG SIZE
-      width: 5em;
+      width: 3.5em;
 }
 
 
@@ -495,10 +488,10 @@ main {
 @media only screen and (min-width: 768px){
 
 hr {
-      width: 60%;
+      width: 40%;
 }
 
-h2 {
+h3 {
      width: 100%;
 }
 
@@ -545,8 +538,12 @@ footer {
  .drinks-top-background-image {
    height: 25em;
    background-position:  center;
-   background-size: 100%;
+   background-size: 100% 100%;
  }
+
+.home-top-background-image {
+      background-position: bottom;
+}
 
  .drinks-top-background-image {
       background-position: center;
@@ -555,14 +552,13 @@ footer {
 .welcome-container {
       margin: auto;
       text-align: center;
-      width: 768px;
+      width: 800px;
 }
 
 .menus-container {
-      max-width: 100%;
+      max-width: 85%;
       flex-direction: row;
       gap: 0;
-      margin: auto;
 
       hr {
             display: none;
@@ -571,15 +567,15 @@ footer {
 
 .menus {
       width: 100%;
-      height: 30em;
       margin: auto 5px;
+      height: 20em;
 }
 
 .specials {
       max-width: 100%;
       width: 100%;
 
-       h2 {
+       h3 {
        width: 100%;
        }
 }
@@ -621,21 +617,12 @@ footer {
  .breakfast-top-background-image,
  .menu-top-background-image,
  .mains-top-background-image{
-    background-position: top;
+    background-position: center;
+    height: 25em;
   }
   
-.nav-list-extended {
 
-       a {
-            text-decoration: none;
-            color: whitesmoke;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-}
-
+  
 .items {
       height: 100em;
 }
@@ -662,9 +649,12 @@ footer {
 }
 
 .welcome-container {
-      width: 800px;
+      width: 1000px;
        top: -500px;
-      
+}
+
+.menus-container {
+       max-width: 50em;
 }
 
 .contact-container {
@@ -698,7 +688,6 @@ form {
 
 }
 
-
 @media only screen and (min-width: 1200px){
 
 #mains {
@@ -706,8 +695,12 @@ form {
        padding: 0 10em;
 }
 
+.menus-container {
+      max-width: 55em;
+}
+
 .menus {
-      margin: 20px 10px;
+      height: 25em;
 }
 
 .specials {
