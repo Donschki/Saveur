@@ -278,7 +278,7 @@ hr {
  
 
 
-.loadshedding, .specials-2  {
+.loadshedding, .redhill  {
  display: flex;
  flex-direction: column;
  gap: 1em;
@@ -303,8 +303,12 @@ hr {
 
 }
 
-.loadshedding-background, .specials-2-background {
+.loadshedding-background, .redhill-background {
  height: 20em;
+}
+
+.redhill-logo {
+      height: 5em;
 }
 
 
@@ -479,7 +483,7 @@ main {
 }
 
 
-.specials-2-background {
+.redhill-background {
  background-image: url("/Photos/Redhill-image-800x800.jpg");
 }
 
@@ -589,11 +593,11 @@ footer {
       max-width: 100%;
 }
 
-.specials-2 {
+.redhill {
       flex-direction: row-reverse;
 }
 
-.loadshedding-background, .specials-2-background {
+.loadshedding-background, .redhill-background {
       width: 50%;
       height: 25em;
 
@@ -645,7 +649,7 @@ footer {
       flex-direction: row;
 }
 
-.specials-2 {
+.redhill {
       flex-direction: row-reverse;
 }
 
