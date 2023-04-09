@@ -534,7 +534,7 @@ footer {
    background-size: 100% 100%;
  }
 
-.home-top-background-image {
+ .home-top-background-image {
       background-position: bottom;
 }
 
@@ -580,6 +580,7 @@ footer {
 .loadshedding {
       flex-direction: row;
       max-width: 100%;
+      margin: auto;
 }
 
 .redhill {
@@ -588,8 +589,6 @@ footer {
 
 .loadshedding-background, .redhill-background {
       width: 40%;
-      height: 20em;
-
 }
 
 .social-media-container {
