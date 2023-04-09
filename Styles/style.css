@@ -655,7 +655,7 @@ svg {
     width: 40%;
   }
   .social-media-container {
-    padding: 2em 12em;
+    padding: 0 12em;
   }
   .social-media {
     justify-content: space-around;
