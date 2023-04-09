@@ -645,12 +645,13 @@ svg {
     flex-direction: row;
     max-width: 100%;
     margin: auto;
-  }
-  .redhill {
+}
+
+.redhill {
     flex-direction: row-reverse;
     max-width: 100%;
     margin: auto;
-  }
+}
   .loadshedding-background, .redhill-background {
     width: 40%;
   }
