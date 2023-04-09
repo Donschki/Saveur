@@ -24,7 +24,8 @@
 
 .home-top-background-image {
   background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100% 25em;
+  background-size: 100% 30em;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -95,19 +96,20 @@
 
 .loadshedding-background {
   background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .redhill-background {
   background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .redhill-logo {
   background-image: url("/Saveur/Photos/redhill-logo.png");
   background-position: center;
-  background-size: 100% 100%;
   background-repeat: no-repeat;
 }/*# sourceMappingURL=images.css.map */
