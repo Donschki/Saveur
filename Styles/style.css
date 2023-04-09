@@ -96,7 +96,6 @@
 .loadshedding-background {
   background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
   background-position: center;
-  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -108,8 +107,8 @@
 
 .redhill-logo {
   background-image: url("/Saveur/Photos/redhill-logo.png");
-  background-size: 100% 100%;
   background-position: center;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -312,7 +311,7 @@ hr {
   display: flex;
   flex-direction: column;
   color: var(--color);
-  padding: 21px;
+  padding: 15px;
   margin: auto;
   background-color: whitesmoke;
   gap: 1em;
@@ -388,7 +387,6 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  margin: 30px;
 }
 
 .specials-info {
@@ -404,7 +402,7 @@ hr {
 }
 
 .redhill-logo {
-  height: 3em;
+  height: 5em;
 }
 
 footer {
@@ -553,9 +551,6 @@ svg {
   .loadshedding, .specials {
     max-width: 600px;
   }
-  .redhill-background {
-    background-image: url("/Saveur/Saveur/Photos/Redhill-image-800x800.jpg");
-  }
   .social-media-container {
     padding: 2em 10em;
   }
@@ -649,13 +644,15 @@ svg {
   .loadshedding {
     flex-direction: row;
     max-width: 100%;
+    margin: auto;
   }
   .redhill {
     flex-direction: row-reverse;
+    max-width: 100%;
+    margin: auto;
   }
   .loadshedding-background, .redhill-background {
-    width: 50%;
-    height: 20em;
+    width: 40%;
   }
   .social-media-container {
     padding: 2em 12em;
@@ -747,7 +744,7 @@ svg {
     width: 1500px;
   }
   .menus {
-    height: 35em;
+    height: 30em;
   }
   h1 {
     text-align: center;

@@ -281,7 +281,6 @@ hr {
  display: flex;
  flex-direction: column;
  gap: 2em;
- margin: 30px ;
 }
 
 .specials-info {
@@ -294,7 +293,7 @@ hr {
 }
 
 .loadshedding-background, .redhill-background {
- height: 25em;
+ height: 20em;
 
 }
 
@@ -585,6 +584,8 @@ footer {
 
 .redhill {
       flex-direction: row-reverse;
+      max-width: 100%;
+      margin: auto;
 }
 
 .loadshedding-background, .redhill-background {
@@ -713,7 +714,7 @@ main {
 }
 
 .menus {
-      height: 35em;
+      height: 30em;
 }
 
 h1 {
