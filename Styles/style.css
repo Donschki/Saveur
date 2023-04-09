@@ -25,7 +25,7 @@
 .home-top-background-image {
   background-image: url("/Saveur/Photos/background1.jpg");
   background-size: 100% 30em;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -649,11 +649,13 @@ svg {
   .loadshedding {
     flex-direction: row;
     padding: 0 5em;
+    gap: 0;
   }
   .redhill {
     flex-direction: row-reverse;
     margin: auto;
     padding: 0 4em;
+    gap: 0;
   }
   .loadshedding-background, .redhill-background {
     width: 50%;
