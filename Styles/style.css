@@ -607,14 +607,13 @@ svg {
     width: 100%;
     padding: 0;
   }
+  .home-top-background-image,
   .breakfast-top-background-image,
   .menu-top-background-image,
   .mains-top-background-image,
   .drinks-top-background-image {
-    height: 100%;
-  }
-  .home-top-background-image {
     background-position: bottom;
+    background-size: cover;
   }
   .drinks-top-background-image {
     background-position: center;
@@ -675,13 +674,6 @@ svg {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .home-top-background-image,
-  .breakfast-top-background-image,
-  .menu-top-background-image,
-  .mains-top-background-image {
-    background-position: center;
-    height: 25em;
-  }
   .items {
     height: 100em;
   }
@@ -760,5 +752,12 @@ svg {
   }
   h1 {
     text-align: center;
+  }
+  .home-top-background-image,
+  .breakfast-top-background-image,
+  .menu-top-background-image,
+  .mains-top-background-image,
+  .drinks-top-background-image {
+    height: 30em;
   }
 }/*# sourceMappingURL=style.css.map */

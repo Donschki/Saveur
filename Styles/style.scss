@@ -531,16 +531,15 @@ footer {
        padding: 0;
  }
 
+ .home-top-background-image,
  .breakfast-top-background-image,
  .menu-top-background-image,
  .mains-top-background-image,
  .drinks-top-background-image {
-   height: 100%;
- }
+   background-position: bottom;
+   background-size: cover;
 
- .home-top-background-image {
-      background-position: bottom;
-}
+ }
 
  .drinks-top-background-image {
       background-position: center;
@@ -621,14 +620,6 @@ footer {
 
 @media only screen and (min-width: 1000px) {
 
-.home-top-background-image,
- .breakfast-top-background-image,
- .menu-top-background-image,
- .mains-top-background-image{
-    background-position: center;
-    height: 25em;
-  }
-  
 .items {
       height: 100em;
 }
@@ -691,6 +682,8 @@ form {
        justify-content: space-around;
 }
 
+
+
 }
 
 @media only screen and (min-width: 1200px){
@@ -731,6 +724,15 @@ main {
 
 h1 {
          text-align: center;
+}
+
+.home-top-background-image,
+.breakfast-top-background-image,
+.menu-top-background-image,
+.mains-top-background-image,
+.drinks-top-background-image {
+  height: 30em;
+
 }
 
 }
