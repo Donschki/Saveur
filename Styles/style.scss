@@ -82,6 +82,8 @@ a:hover li {
 
 .nav-item-extended {
        transition: all 0.3s ease-in-out;
+       display: flex;
+       align-items: center;
 }
 
 .nav-item-extended a:hover {
@@ -528,14 +530,12 @@ footer {
        padding: 0;
  }
 
- .home-top-background-image,
  .breakfast-top-background-image,
  .menu-top-background-image,
  .mains-top-background-image,
  .drinks-top-background-image {
    height: 25em;
    background-position:  center;
-   background-size: 100% 40em;
  }
 
  .home-top-background-image {
