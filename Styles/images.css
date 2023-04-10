@@ -24,7 +24,7 @@
 
 .home-top-background-image {
   background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,29 +32,29 @@
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .mains-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: 100% 25em;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

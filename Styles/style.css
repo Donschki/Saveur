@@ -24,7 +24,7 @@
 
 .home-top-background-image {
   background-image: url("/Saveur/Photos/background1.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 30em;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,29 +32,29 @@
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .mains-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .breakfast-top-background-image {
   background-image: url("/Saveur/Photos/breakfast-background.jpeg");
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: 100% 25em;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .drinks-top-background-image {
   background-image: url("/Saveur/Photos/drinks-background.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 25em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -257,7 +257,8 @@ a:hover li {
 .menu-top-background-image,
 .drinks-top-background-image,
 .mains-top-background-image {
-  height: 20em;
+  height: 23em;
+  background-position: top;
 }
 
 #indexMain {
@@ -610,8 +611,7 @@ svg {
   .menu-top-background-image,
   .mains-top-background-image,
   .drinks-top-background-image {
-    height: 25em;
-    background-position: center;
+    height: 100%;
   }
   .home-top-background-image {
     background-position: bottom;

@@ -121,7 +121,8 @@ a:hover li {
 .menu-top-background-image,
 .drinks-top-background-image,
 .mains-top-background-image {
-      height: 20em;
+      height: 23em;
+      background-position: top;
 }
 
 #indexMain { 
@@ -534,8 +535,7 @@ footer {
  .menu-top-background-image,
  .mains-top-background-image,
  .drinks-top-background-image {
-   height: 25em;
-   background-position:  center;
+   height: 100%;
  }
 
  .home-top-background-image {
