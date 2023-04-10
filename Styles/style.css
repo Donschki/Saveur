@@ -112,8 +112,7 @@
   background-image: url("/Saveur/Photos/redhill-logo.png");
   background-position: center;
   background-repeat: no-repeat;
- background-size: 100% 100%;
-
+  background-size: 100% 100%;
 }
 
 :root {
@@ -548,10 +547,13 @@ svg {
   main {
     margin: auto;
   }
+  .menus-container {
+    max-width: 400px;
+  }
 }
 @media only screen and (min-width: 550px) {
-  .menus-container {
-    max-width: 450px;
+  .specials {
+    max-width: 400px;
   }
 }
 @media only screen and (min-width: 600px) {
