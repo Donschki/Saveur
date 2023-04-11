@@ -32,7 +32,7 @@
 
 .menu-top-background-image {
   background-image: url("/Saveur/Photos/mains-background.jpeg");
-  background-size: 100% 25em;
+  background-size: 100% 22em;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -110,9 +110,9 @@
 
 .redhill-logo {
   background-image: url("/Saveur/Photos/redhill-logo.png");
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 5em;
 }
 
 :root {
@@ -130,7 +130,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -177,7 +177,7 @@ nav {
 .nav-item {
   font-size: 1.5em;
   font-weight: 500;
-  color: whitesmoke;
+  color: white;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -193,7 +193,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
   text-transform: uppercase;
   height: 100%;
   display: flex;
@@ -204,7 +204,7 @@ a {
 }
 
 a:hover li {
-  background-color: whitesmoke;
+  background-color: white;
   color: #01257F;
   transition: all 0.3s ease-in-out;
 }
@@ -220,7 +220,7 @@ a:hover li {
 }
 
 .nav-item-extended a:hover {
-  background-color: whitesmoke;
+  background-color: white;
   color: var(--font-color);
   transition: all 0.3s ease-in-out;
 }
@@ -258,15 +258,15 @@ a:hover li {
 .menu-top-background-image,
 .drinks-top-background-image,
 .mains-top-background-image {
-  height: 23em;
-  background-position: top;
+  height: 30em;
+  background-size: 100% 32em;
 }
 
 #indexMain {
   display: flex;
   flex-direction: column;
-  gap: 2em;
   align-items: center;
+  gap: 3em;
 }
 
 #mains {
@@ -323,7 +323,7 @@ hr {
   color: var(--color);
   padding: 15px;
   margin: auto;
-  background-color: whitesmoke;
+  background-color: white;
   gap: 1em;
 }
 
@@ -331,7 +331,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .menus {
@@ -387,18 +387,22 @@ hr {
   padding: 10px;
 }
 
+.loadshedding-background, .redhill-background {
+  height: 18em;
+}
+
 .loadshedding, .redhill {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1em;
+  gap: 2em;
 }
 
 .specials {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  margin: 10px;
+  gap: 3em;
+  margin: 1em;
 }
 
 .specials-info {
@@ -406,12 +410,12 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-  padding: 0 1.5em;
+  gap: 2em;
+  padding: 0 3em;
 }
 
-.loadshedding-background, .redhill-background {
-  height: 18em;
+.redhill {
+  gap: 2em;
 }
 
 .redhill-logo {
@@ -423,11 +427,11 @@ footer {
   width: 100%;
   flex-direction: column;
   border: var(--borders);
-  color: whitesmoke;
+  color: white;
   background-color: var(--background-color);
 }
 footer h2 {
-  color: whitesmoke;
+  color: white;
 }
 
 .contact-container {
@@ -439,7 +443,7 @@ footer h2 {
   gap: 2em;
 }
 .contact-container hr {
-  color: whitesmoke;
+  color: white;
 }
 
 form {
@@ -461,7 +465,7 @@ textarea {
 }
 
 label {
-  color: whitesmoke;
+  color: white;
 }
 
 .social-media-container {
@@ -485,7 +489,7 @@ label {
   gap: 5px;
   font-style: none;
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
 }
 
 .social-media {
@@ -501,14 +505,14 @@ label {
   width: 2.5em;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  fill: whitesmoke;
+  fill: white;
   border-radius: 50%;
 }
 .social-media svg:hover {
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
   fill: #01257F;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 path {
@@ -532,7 +536,7 @@ svg {
   margin: auto;
   color: var(--blue);
   font-size: 1em;
-  background-color: whitesmoke;
+  background-color: white;
   border: none;
   transition: all 0.3s ease-in-out;
 }
@@ -540,10 +544,13 @@ svg {
 #submit-button:hover {
   background-color: rgba(1, 37, 127, 0.3843137255);
   transition: all 0.3s ease-in-out;
-  color: whitesmoke;
+  color: white;
 }
 
 @media only screen and (min-width: 400px) {
+  #indexMain {
+    gap: 2em;
+  }
   main {
     margin: auto;
   }
@@ -610,14 +617,7 @@ svg {
     margin: auto;
     width: 100%;
     padding: 0;
-  }
-  .home-top-background-image,
-  .breakfast-top-background-image,
-  .menu-top-background-image,
-  .mains-top-background-image,
-  .drinks-top-background-image {
-    background-position: bottom;
-    background-size: cover;
+    gap: 2em;
   }
   .drinks-top-background-image {
     background-position: center;
@@ -625,12 +625,12 @@ svg {
   .welcome-container {
     margin: auto;
     text-align: center;
-    width: 800px;
+    width: 520px;
   }
   .menus-container {
     max-width: 85%;
     flex-direction: row;
-    gap: 0;
+    gap: 1em;
   }
   .menus-container hr {
     display: none;
@@ -640,28 +640,36 @@ svg {
     margin: auto 5px;
     height: 20em;
   }
+  .home-top-background-image,
+  .breakfast-top-background-image,
+  .menu-top-background-image,
+  .drinks-top-background-image,
+  .mains-top-background-image {
+    height: 25em;
+    background-size: 100% 40em;
+  }
   .specials {
     max-width: 100%;
+    gap: 1em;
   }
   .specials h3 {
     width: 100%;
   }
   .specials-info {
     width: 40%;
+    gap: 1em;
   }
   .loadshedding {
     flex-direction: row;
-    padding: 0 5em;
     gap: 0;
   }
   .redhill {
     flex-direction: row-reverse;
     margin: auto;
-    padding: 0 4em;
     gap: 0;
   }
   .loadshedding-background, .redhill-background {
-    width: 50%;
+    width: 15em;
   }
   .redhill-background {
     background-position: right;
@@ -690,15 +698,9 @@ svg {
   .redhill {
     flex-direction: row-reverse;
   }
-  .loadshedding-info {
-    width: 30%;
-  }
-  .loadshedding-background {
-    width: 50%;
-  }
   .welcome-container {
-    width: 1000px;
     top: -500px;
+    width: 680px;
   }
   .menus-container {
     max-width: 50em;
@@ -734,7 +736,7 @@ svg {
     padding: 0 10em;
   }
   .menus-container {
-    max-width: 55em;
+    max-width: 48em;
   }
   .menus {
     height: 25em;
