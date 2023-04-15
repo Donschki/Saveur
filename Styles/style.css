@@ -332,6 +332,7 @@ hr {
   margin: auto;
   background-color: white;
   gap: 1em;
+  padding-top: 3em;
 }
 
 .menus-container {
@@ -639,7 +640,8 @@ svg {
   .welcome-container {
     margin: auto;
     text-align: center;
-    width: 520px;
+    width: 85%;
+    padding-top: 2em;
   }
   .menus-container {
     max-width: 85%;
@@ -722,7 +724,7 @@ svg {
   }
   .welcome-container {
     top: -500px;
-    width: 680px;
+    max-width: 50em;
   }
   .menus-container {
     max-width: 50em;

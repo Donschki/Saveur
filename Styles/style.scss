@@ -190,6 +190,7 @@ hr {
        margin: auto;
        background-color: white;
        gap: 1em;
+       padding-top: 3em;
 } 
 
 
@@ -548,7 +549,9 @@ footer {
 .welcome-container {
       margin: auto;
       text-align: center;
-      width: 520px;
+      width: 85%;
+      padding-top: 2em;
+
 }
 
 .menus-container {
@@ -579,7 +582,7 @@ footer {
 .specials {
       max-width: 100%;
       gap: 1em;      
-      
+
        h3 {
        width: 100%;
        }
@@ -655,7 +658,7 @@ footer {
 
 .welcome-container {
        top: -500px;
-       width: 680px;
+       max-width: 50em;
 }
 
 .menus-container {
