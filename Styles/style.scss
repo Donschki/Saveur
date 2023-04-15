@@ -121,7 +121,7 @@ a:hover li {
 .menu-top-background-image,
 .drinks-top-background-image,
 .mains-top-background-image {
-      height: 30em;
+      height: 20em;
       background-size: 100% 32em;
 }
 
@@ -276,11 +276,8 @@ hr {
 //                     LOADSHEDDING & REDHILL
  
 .loadshedding-background, .redhill-background {
-      height: 18em;
-     
-     }
-
-  
+ height: 18em;
+}
 
 .loadshedding, .redhill  {
  display: flex;
@@ -292,7 +289,7 @@ hr {
 .specials {
  display: flex;
  flex-direction: column;
- gap: 3em;
+ gap: 2em;
  margin: 1em;
 }
 
@@ -309,10 +306,16 @@ hr {
       gap: 2em;
 }
 
-
 .redhill-logo {
       height: 5em;
+      width: 100%;
      }
+
+     .swap-heading-p {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+}
 
 
 //                     FOOTER
@@ -576,6 +579,7 @@ footer {
 .specials {
       max-width: 100%;
       gap: 1em;      
+      
        h3 {
        width: 100%;
        }
@@ -584,32 +588,36 @@ footer {
 .specials-info {
       width: 40%;
       gap: 1em;
+      padding: 0;
 }
 
 .loadshedding {
       flex-direction: row;
-      gap: 0;
-
 }
 
 .redhill {
-      flex-direction: row-reverse;
       margin: auto;
-      gap: 0;
+      flex-direction: row-reverse;
+}
 
+.swap-info-redhillLogo {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 50%;
 }
 
 .loadshedding-background, .redhill-background {
       width: 15em;
+      flex-direction: row;
 }
 
 .redhill-background {
       background-position: right;
-    }
+}
 
 .loadshedding-background {
       background-position: left;
-    }
+}
 
 .social-media-container {
       padding: 0 12em;
@@ -641,6 +649,10 @@ footer {
       flex-direction: row-reverse;
 }
 
+.redhill-logo {
+      height: 4.5em;
+}
+
 .welcome-container {
        top: -500px;
        width: 680px;
@@ -648,6 +660,10 @@ footer {
 
 .menus-container {
        max-width: 50em;
+}
+
+.specials-info {
+      width: 40%;
 }
 
 .contact-container {
@@ -702,6 +718,10 @@ form {
 .specials {
       width: 75em;
       margin: auto;
+}
+
+.specials-info {
+      width: 35%;
 }
 
 h1 {

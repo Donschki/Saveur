@@ -115,6 +115,13 @@
   background-size: 100% 5em;
 }
 
+.redhill-logo-2 {
+  background-image: url("/Saveur/Photos/redhill-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 5em;
+}
+
 :root {
   --borders: #01257F 1px solid;
   --background-color: #01257F;
@@ -258,7 +265,7 @@ a:hover li {
 .menu-top-background-image,
 .drinks-top-background-image,
 .mains-top-background-image {
-  height: 30em;
+  height: 20em;
   background-size: 100% 32em;
 }
 
@@ -401,7 +408,7 @@ hr {
 .specials {
   display: flex;
   flex-direction: column;
-  gap: 3em;
+  gap: 2em;
   margin: 1em;
 }
 
@@ -420,6 +427,13 @@ hr {
 
 .redhill-logo {
   height: 5em;
+  width: 100%;
+}
+
+.swap-heading-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 footer {
@@ -658,18 +672,23 @@ svg {
   .specials-info {
     width: 40%;
     gap: 1em;
+    padding: 0;
   }
   .loadshedding {
     flex-direction: row;
-    gap: 0;
   }
   .redhill {
-    flex-direction: row-reverse;
     margin: auto;
-    gap: 0;
+    flex-direction: row-reverse;
+  }
+  .swap-info-redhillLogo {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50%;
   }
   .loadshedding-background, .redhill-background {
     width: 15em;
+    flex-direction: row;
   }
   .redhill-background {
     background-position: right;
@@ -698,12 +717,18 @@ svg {
   .redhill {
     flex-direction: row-reverse;
   }
+  .redhill-logo {
+    height: 4.5em;
+  }
   .welcome-container {
     top: -500px;
     width: 680px;
   }
   .menus-container {
     max-width: 50em;
+  }
+  .specials-info {
+    width: 40%;
   }
   .contact-container {
     flex-direction: row;
@@ -744,6 +769,9 @@ svg {
   .specials {
     width: 75em;
     margin: auto;
+  }
+  .specials-info {
+    width: 35%;
   }
   h1 {
     text-align: center;
