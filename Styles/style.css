@@ -489,6 +489,9 @@ label {
   gap: 2em;
   padding: 1em 4em;
 }
+.social-media-container h3 {
+  color: white;
+}
 
 .social-media-icons {
   font-size: 1em;
