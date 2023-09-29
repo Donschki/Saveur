@@ -52,7 +52,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
 }
 
 .breakfast-top-background-image {
@@ -63,7 +63,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
 }
 
 .drinks-top-background-image {
@@ -74,7 +74,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
 }
 
 .breakfast-items {
