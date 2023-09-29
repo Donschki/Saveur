@@ -1,6 +1,6 @@
-@import "./mixins.scss";
-@import "./images.scss";
-@import "./root.scss";
+@import "./mixins";
+@import "./images";
+@import "./root";
 
 * {
      box-sizing: border-box;
@@ -116,14 +116,7 @@ a:hover li {
 
 //                  HOME PAGE 
 
-.home-top-background-image,
-.breakfast-top-background-image,
-.menu-top-background-image,
-.drinks-top-background-image,
-.mains-top-background-image {
-      height: 20em;
-      background-size: 100% 32em;
-}
+
 
 #indexMain { 
       display: flex;
@@ -463,17 +456,19 @@ svg {//        SAVEUR LOGO SVG SIZE
       color: white;
 }
 
-@media only screen and (min-width: 400px){
-#indexMain {
+@media only screen and (min-width: 400px) {
+ 
+ #indexMain {
       gap: 2em;
 }
 
-main {
+ main {
  margin: auto;
 }
-.menus-container {
+
+ .menus-container {
       max-width: 400px;
-     }
+}
 }
 
 @media only screen and (min-width: 550px) {
@@ -574,14 +569,7 @@ footer {
       height: 20em;
 }
 
-.home-top-background-image,
-.breakfast-top-background-image,
-.menu-top-background-image,
-.drinks-top-background-image,
-.mains-top-background-image {
-      height: 25em;
-      background-size: 100% 40em;
-}
+
 
 .specials {
       max-width: 100%;
@@ -634,8 +622,6 @@ footer {
        justify-content: space-around;
        width: 50%;
 }
-
-
 }
 
 @media only screen and (min-width: 1000px) {
