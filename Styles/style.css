@@ -24,10 +24,8 @@
 
 .home-top-background-image {
   background-image: url("/Photos/background1.jpg");
-  background-size: 100% 30em;
   background-position: top;
-  background: url("/Photos/background1.jpg");
-  height: 400px;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
@@ -149,6 +147,8 @@
   --h2-color: #01257F;
   --font-color: #01257F;
   --blue: #01257F;
+  --border-radius: 1.5px;
+  --primary-black-color: rgb(48, 48, 48);
 }
 
 * {
@@ -158,54 +158,50 @@
 }
 
 body {
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  font-family: "Roboto Condensed";
   display: flex;
   flex-direction: column;
+  background: rgb(252, 253, 255);
+}
+
+svg {
+  width: 6em;
+  fill: var(--primary-black-color);
 }
 
 header {
   display: flex;
-  display: flex;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  position: absolute;
   width: 100%;
-  flex-direction: row;
-  background-color: var(--background-color);
-  color: var(--blue);
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 0;
   display: flex;
-  transition: 0.5s ease-in-out;
-  background-color: var(--background-color);
+  justify-content: center;
+  flex-direction: row;
   width: 100%;
-  margin: auto;
-  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-between;
+  transition: 0.5s ease-in-out;
+  color: black;
 }
 
 .nav-list {
+  transition: all 1s ease-in-out;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--background-color);
   display: none;
   position: absolute;
   padding: 4em;
   gap: 2em;
-  transition: all 1s ease-in-out;
 }
 
 .nav-item {
   font-size: 1.5em;
   font-weight: 500;
-  color: white;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -221,14 +217,10 @@ nav {
 
 a {
   text-decoration: none;
-  color: white;
   text-transform: uppercase;
-  height: 100%;
-  display: flex;
   justify-content: center;
   list-style: none;
   transition: all 0.3s ease-in-out;
-  font-size: 0.9em;
 }
 
 a:hover li {
@@ -243,8 +235,7 @@ a:hover li {
 
 .nav-item-extended {
   transition: all 0.3s ease-in-out;
-  display: flex;
-  align-items: center;
+  padding: 1rem;
 }
 
 .nav-item-extended a:hover {
@@ -263,11 +254,10 @@ a:hover li {
   margin: auto 1em;
   align-items: center;
   cursor: pointer;
-  align-items: center;
 }
 
 .lines {
-  border: solid 1px white;
+  border: solid 1px rgb(12, 12, 12);
   border-radius: 10px;
   width: 80%;
 }
@@ -279,13 +269,6 @@ a:hover li {
   height: 100vh;
   position: absolute;
   transition: all 2s ease-in-out;
-}
-
-#indexMain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3em;
 }
 
 #mains {
@@ -340,24 +323,26 @@ hr {
   display: flex;
   flex-direction: column;
   color: var(--color);
-  padding: 15px;
   margin: auto;
   background-color: white;
-  gap: 1em;
-  padding-top: 3em;
+  gap: 0.5em;
+  padding-top: 1em;
+  padding: 0.5rem;
+  max-width: 700px;
 }
 
 .menus-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background-color: white;
+  gap: 1rem;
+  max-width: 300px;
+  margin: auto;
+  padding-top: 1rem;
 }
 
 .menus {
   overflow: hidden;
-  margin: 30px;
-  height: 30em;
+  height: 20rem;
 }
 
 .overlay {
@@ -422,7 +407,6 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  margin: 1em;
 }
 
 .specials-info {
@@ -549,10 +533,6 @@ path {
   margin: auto;
 }
 
-svg {
-  width: 3.5em;
-}
-
 .map {
   display: flex;
   width: 100%;
@@ -577,38 +557,21 @@ svg {
   color: white;
 }
 
-@media only screen and (min-width: 400px) {
-  #indexMain {
-    gap: 2em;
-  }
-  main {
+@media only screen and (min-width: 425px) {
+  .specials {
     margin: auto;
   }
+}
+@media only screen and (min-width: 500px) {
   .menus-container {
-    max-width: 400px;
+    flex-direction: row;
+    max-width: 600px;
   }
-}
-@media only screen and (min-width: 550px) {
-  .specials {
-    max-width: 400px;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .items {
-    height: 80em;
-  }
-  .specials {
-    min-width: 500px;
-    margin-bottom: auto 2em;
-  }
-  .social-media-container {
-    padding: 2em 10em;
+  .menus-container .menus {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 768px) {
-  hr {
-    max-width: 500px;
-  }
   h3 {
     width: 100%;
   }
@@ -635,44 +598,13 @@ svg {
     display: flex;
     flex-direction: row;
     list-style: none;
-    width: 65%;
-    justify-content: space-evenly;
     align-items: center;
-    color: white;
     text-transform: uppercase;
-  }
-  #indexMain {
-    position: relative;
-    top: -100px;
-    margin: auto;
-    width: 100%;
-    padding: 0;
-    gap: 2em;
   }
   .drinks-top-background-image {
     background-position: center;
   }
-  .welcome-container {
-    margin: auto;
-    text-align: center;
-    width: 85%;
-    padding-top: 2em;
-  }
-  .menus-container {
-    max-width: 85%;
-    flex-direction: row;
-    gap: 1em;
-  }
-  .menus-container hr {
-    display: none;
-  }
-  .menus {
-    width: 100%;
-    margin: auto 5px;
-    height: 20em;
-  }
   .specials {
-    max-width: 100%;
     gap: 1em;
   }
   .specials h3 {
@@ -730,11 +662,7 @@ svg {
     height: 4.5em;
   }
   .welcome-container {
-    top: -500px;
-    max-width: 50em;
-  }
-  .menus-container {
-    max-width: 50em;
+    max-width: 800px;
   }
   .specials-info {
     width: 40%;
@@ -795,12 +723,5 @@ svg {
   }
   h1 {
     text-align: center;
-  }
-  .home-top-background-image,
-  .breakfast-top-background-image,
-  .menu-top-background-image,
-  .mains-top-background-image,
-  .drinks-top-background-image {
-    height: 30em;
   }
 }/*# sourceMappingURL=style.css.map */

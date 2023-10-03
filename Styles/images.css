@@ -24,10 +24,8 @@
 
 .home-top-background-image {
   background-image: url("/Photos/background1.jpg");
-  background-size: 100% 30em;
   background-position: top;
-  background: url("/Photos/background1.jpg");
-  height: 400px;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
