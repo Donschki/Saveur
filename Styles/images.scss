@@ -2,7 +2,7 @@
 //                          BREAKFAST MENU BACKGROUND IMAGE - HOME PAGE
 
 .breakfast-menu .overlay {
- background-image: url("/Saveur/Photos/menuBackground1.jpg");
+ background-image: url("/Photos/menuBackground1.jpg");
  background-size: 100% 100%;
  background-position: top;
  background-attachment: contain;
@@ -12,7 +12,7 @@
 //                          MAINS MENU BACKGROUND IMAGE - HOME PAGE
 
 .lunch-dinner-menu .overlay {
- background-image: url("/Saveur/Photos/menuBackground2.jpg");
+ background-image: url("/Photos/menuBackground2.jpg");
  background-size: 100% 100%;
  background-position: center;
  background-attachment: contain;
@@ -22,11 +22,11 @@
 //                           DRINKS MENU BACKGROUND IMAGE - HOME PAGE
 
 .drinks-menu .overlay {
-         background-image: url("/Saveur/Photos/menuBackground3.jpg");
-         background-size: 100% 100%;
-         background-position: center;
-         background-attachment: contain;
-         background-repeat: no-repeat;  
+ background-image: url("/Photos/menuBackground3.jpg");
+ background-size: 100% 100%;
+ background-position: center;
+ background-attachment: contain;
+ background-repeat: no-repeat;  
 } 
 
 
@@ -34,7 +34,7 @@
 //                           TOP BACKGROUND MENU IMAGES 
 
 .home-top-background-image {
- background-image: url("/Saveur/Photos/background1.jpg");
+ background-image: url("/Photos/background1.jpg");
  background-position: top;
  height: 100vh; 
  object-fit: cover;
@@ -45,7 +45,7 @@
 }
 
 .menu-top-background-image {
- background-image: url("/Saveur/Photos/mains-background.jpeg");
+ background-image: url("/Photos/mains-background.jpeg");
  height: 400px; 
  object-fit: cover;
  background-size: cover;
@@ -55,7 +55,7 @@
 }
 
 .mains-top-background-image {
- background-image: url("/Saveur/Photos/mains-background.jpeg");
+ background-image: url("/Photos/mains-background.jpeg");
  height: 400px; 
  object-fit: cover;
  background-size: cover;
@@ -65,7 +65,7 @@
 }
   
 .breakfast-top-background-image {
- background-image: url("/Saveur/Photos/breakfast-background.jpeg");
+ background-image: url("/Photos/breakfast-background.jpeg");
  height: 400px; 
  object-fit: cover;
  background-size: cover;
@@ -75,7 +75,7 @@
 }
   
 .drinks-top-background-image {
- background-image: url("/Saveur/Photos/drinks-background.jpg");
+ background-image: url("/Photos/drinks-background.jpg");
  height: 400px; 
  object-fit: cover;
  background-size: cover;
@@ -87,40 +87,40 @@
 // BREAKFAST MENU
   
 .breakfast-items {
-         background-image: url("/Saveur/Photos/breakfast-menu.png");
-         background-size: 100% 100% ;
-         background-repeat: no-repeat;
-         background-attachment: contain;
+ background-image: url("/Photos/breakfast-menu.png");
+ background-size: 100% 100% ;
+ background-repeat: no-repeat;
+ background-attachment: contain;
 }
 
 // LUNCH MENU - 1
 .lunchdinner-items-1 {
-         background-image: url("/Saveur/Photos/lunchdinner-menu-1.png");
-         background-size: 100% 100%;
-         background-repeat: no-repeat;
-         background-attachment: contain;
+ background-image: url("/Photos/lunchdinner-menu-1.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-attachment: contain;
 }
 
 // LUNCH MENU - 2 
 
 .lunchdinner-items-2 {
-         background-image: url("/Saveur/Photos/lunchdinner-menu-2.png");
-         background-size: 100% 100%;
-         background-repeat: no-repeat;
-         background-attachment: contain;
+ background-image: url("/Photos/lunchdinner-menu-2.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-attachment: contain;
 }
 
 // DRINKS MENU - 1 
 .drinks-items {
-         background-image: url("/Saveur/Photos/drinks-menu.png");
-         background-size: 100% 100%;
-         background-repeat: no-repeat;
-         background-attachment: contain;
+ background-image: url("/Photos/drinks-menu.png");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ background-attachment: contain;
 }
 
 // DRINKS MENU - 2
 .drinks-items-2 {
- background-image: url("/Saveur/Photos/drinks-menu-2.png");
+ background-image: url("/Photos/drinks-menu-2.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  background-attachment: contain;
@@ -129,30 +129,28 @@
 // LOADSHEDDING & REDHILL IMAGES
 
 .loadshedding-background {
- background-image: url("/Saveur/Photos/Loadshedding-image-800x800.jpg");
+ background-image: url("/Photos/Loadshedding-image-800x800.jpg");
  background-repeat: no-repeat;
  background-size: contain ;
  background-position: center;
- 
 }
 
 .redhill-background {
- background-image: url("/Saveur/Photos/Redhill-image-400x400.jpg");
+ background-image: url("/Photos/Redhill-image-400x400.jpg");
  background-repeat: no-repeat;
  background-size: contain ;
  background-position: center;
- 
 }
 
 .redhill-logo {
- background-image: url("/Saveur/Photos/redhill-logo.png");
+ background-image: url("/Photos/redhill-logo.png");
  background-position: right;
  background-repeat: no-repeat;
  background-size: 100% 5em;
 }
 
 .redhill-logo-2 {
- background-image: url("/Saveur/Photos/redhill-logo.png");
+ background-image: url("/Photos/redhill-logo.png");
  background-position: center;
  background-repeat: no-repeat;
  background-size: 100% 5em;
