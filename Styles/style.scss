@@ -1,6 +1,7 @@
 @import "./mixins";
-@import "./images";
 @import "./root";
+
+@import "./images.scss";
 
 * {
      box-sizing: border-box;
