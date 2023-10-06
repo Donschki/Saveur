@@ -36,8 +36,7 @@
   background-image: url("/Photos/background1.jpg");
   background-position: top;
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -47,8 +46,7 @@
 .menu-top-background-image {
   background-image: url("/Photos/mains-background.jpeg");
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -58,8 +56,7 @@
 .mains-top-background-image {
   background-image: url("/Photos/mains-background.jpeg");
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,8 +66,7 @@
 .breakfast-top-background-image {
   background-image: url("/Photos/breakfast-background.jpeg");
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -80,8 +76,7 @@
 .drinks-top-background-image {
   background-image: url("/Photos/drinks-background.jpg");
   height: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -523,6 +518,7 @@ label {
   border-radius: 50%;
 }
 .social-media svg:hover {
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
   fill: #01257F;
